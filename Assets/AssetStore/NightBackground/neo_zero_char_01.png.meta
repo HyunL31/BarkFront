@@ -823,7 +823,34 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      neo_zero_char_01_0: 8246688713972945545
+      neo_zero_char_01_1: 2586919033579786021
+      neo_zero_char_01_10: -4068788831943055058
+      neo_zero_char_01_11: -2778732663519216648
+      neo_zero_char_01_12: -8178291022126925516
+      neo_zero_char_01_13: -893376412710804130
+      neo_zero_char_01_14: -1585778067511213779
+      neo_zero_char_01_15: 4496720222424486111
+      neo_zero_char_01_16: 410372656548190708
+      neo_zero_char_01_17: 2471820516647042581
+      neo_zero_char_01_18: 8528094157530541501
+      neo_zero_char_01_19: -2694857660209894695
+      neo_zero_char_01_2: -843583947042256871
+      neo_zero_char_01_20: 7655988990714935506
+      neo_zero_char_01_21: -6311354619597495519
+      neo_zero_char_01_22: 2696301584117039639
+      neo_zero_char_01_23: -5105119602808067916
+      neo_zero_char_01_24: -886651498809025490
+      neo_zero_char_01_25: 8845912839701497094
+      neo_zero_char_01_26: 8778266027356069617
+      neo_zero_char_01_3: -2397742988852019497
+      neo_zero_char_01_4: -6016299085786118420
+      neo_zero_char_01_5: -8946216974945763455
+      neo_zero_char_01_6: -8926277445291186105
+      neo_zero_char_01_7: 1942856248426375686
+      neo_zero_char_01_8: 8253747534336774487
+      neo_zero_char_01_9: -6684006216625864522
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

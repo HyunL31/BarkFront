@@ -223,7 +223,10 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      neo_zero_tiles_and_buildings_01_0: 8074960388005030280
+      neo_zero_tiles_and_buildings_01_1: 506623007197351740
+      neo_zero_tiles_and_buildings_01_2: -3322552880021596911
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

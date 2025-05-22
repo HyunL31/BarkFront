@@ -748,7 +748,31 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      neo_zero_props_and_items_01_0: 2347885201555898235
+      neo_zero_props_and_items_01_1: -7132595870957636885
+      neo_zero_props_and_items_01_10: -3371915017926591573
+      neo_zero_props_and_items_01_11: 5711170390219203689
+      neo_zero_props_and_items_01_12: -5719964297723538697
+      neo_zero_props_and_items_01_13: -9161578242021646338
+      neo_zero_props_and_items_01_14: 6634441847909720544
+      neo_zero_props_and_items_01_15: 877193117514218087
+      neo_zero_props_and_items_01_16: -8337761065503988951
+      neo_zero_props_and_items_01_17: 3774468107340136759
+      neo_zero_props_and_items_01_18: -8713187314658262099
+      neo_zero_props_and_items_01_19: -576414647309760100
+      neo_zero_props_and_items_01_2: 3185408265389663153
+      neo_zero_props_and_items_01_20: 1563737606391335633
+      neo_zero_props_and_items_01_21: 5619367565326114536
+      neo_zero_props_and_items_01_22: -1154534901620905806
+      neo_zero_props_and_items_01_23: 8062261081341161825
+      neo_zero_props_and_items_01_3: 2337366142540450162
+      neo_zero_props_and_items_01_4: -456953269562009941
+      neo_zero_props_and_items_01_5: 4907742256428497161
+      neo_zero_props_and_items_01_6: -7010410752392884666
+      neo_zero_props_and_items_01_7: 1529476064088998789
+      neo_zero_props_and_items_01_8: -5623553349970071424
+      neo_zero_props_and_items_01_9: -5780240308817753866
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

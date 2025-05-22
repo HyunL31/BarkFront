@@ -173,7 +173,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Cute_Robot_Jump_0: -561325725504333607
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

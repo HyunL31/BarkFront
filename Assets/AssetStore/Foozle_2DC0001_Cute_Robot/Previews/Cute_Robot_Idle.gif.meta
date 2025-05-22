@@ -173,7 +173,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Cute_Robot_Idle_0: -2515868770249690931
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -173,7 +173,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Foozle_2DC0001_Cute_Robot_Branding_0: -726663451430622982
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
