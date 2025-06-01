@@ -2,12 +2,16 @@ using UnityEngine;
 
 public class TimingBar : MonoBehaviour
 {
-    public RectTransform pointer; // 움직이는 포인터
-    public RectTransform barArea; // 전체 바
-    public RectTransform targetZone; // 성공 영역
+    public RectTransform pointer;
+    public RectTransform barArea;
+    public RectTransform targetZone;
 
-    public float speed = 200f; // 포인터 이동 속도
+    public float speed = 200f;
     private bool goingRight = true;
+
+    private int successCount = 0;
+    public int maxStage = 3;
+    public float targetShrinkFactor = 0.5f;
 
     void Update()
     {
@@ -17,11 +21,21 @@ public class TimingBar : MonoBehaviour
         {
             if (IsPointerInTarget())
             {
-                Debug.Log("성공!");
+                Debug.Log("성공");
+
+                successCount++;
+                if (successCount < maxStage)
+                {
+                    ShrinkTargetZone();
+                }
+                else
+                {
+                    Debug.Log("최종 도달");
+                }
             }
             else
             {
-                Debug.Log("실패...");
+                Debug.Log("실패");
             }
         }
     }
@@ -32,9 +46,13 @@ public class TimingBar : MonoBehaviour
         pointer.anchoredPosition += new Vector2(speed * direction * Time.deltaTime, 0f);
 
         if (pointer.anchoredPosition.x >= barArea.rect.width / 2)
+        {
             goingRight = false;
+        }
         else if (pointer.anchoredPosition.x <= -barArea.rect.width / 2)
+        {
             goingRight = true;
+        }
     }
 
     bool IsPointerInTarget()
@@ -44,5 +62,11 @@ public class TimingBar : MonoBehaviour
         float targetRight = targetZone.anchoredPosition.x + targetZone.rect.width / 2;
 
         return pointerX >= targetLeft && pointerX <= targetRight;
+    }
+
+    void ShrinkTargetZone()
+    {
+        float newWidth = targetZone.rect.width * targetShrinkFactor;
+        targetZone.SetSizeWithCurrentAnchors(RectTransform.Axis.Horizontal, newWidth);
     }
 }

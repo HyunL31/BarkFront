@@ -173,7 +173,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Cute_Robot_Walk_0: 2804979410899002563
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

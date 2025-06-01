@@ -173,7 +173,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Armature_Walking_08_0: 6101242419471727012
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
