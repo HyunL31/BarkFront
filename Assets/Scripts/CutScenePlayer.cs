@@ -6,7 +6,7 @@ using UnityEngine.UI;
 
 public class CutScenePlayer : MonoBehaviour
 {
-    // ÀÎ½ºÆåÅÍ¿¡¼­ ¼³Á¤ °¡´ÉÇÏµµ·Ï Á÷·ÄÈ­
+    // ï¿½Î½ï¿½ï¿½ï¿½ï¿½Í¿ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ïµï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½È­
     [SerializeField] private Image backgroundA;
     [SerializeField] private Image backgroundB;
     [SerializeField] private TextMeshProUGUI subtitleText;
@@ -15,14 +15,14 @@ public class CutScenePlayer : MonoBehaviour
     [SerializeField] private List<Sprite> backgrounds;
     [SerializeField] private List<string> subtitles;
 
-    // Coroutine ½ÃÀÛ
+    // Coroutine ï¿½ï¿½ï¿½ï¿½
     public void StartCutscene()
     {
         StartCoroutine(PlayCutscene());
         StartCoroutine(PlaySubtitle());
     }
 
-    // ¹è°æ Àç»ý (ÄÚ·çÆ¾)
+    // ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ (ï¿½Ú·ï¿½Æ¾)
     IEnumerator PlayCutscene()
     {
         backgroundA.sprite = backgrounds[0];
@@ -31,10 +31,10 @@ public class CutScenePlayer : MonoBehaviour
 
         for (int i = 1; i < backgrounds.Count; i++)
         {
-            // ´ÙÀ½ ¹è°æ ¼³Á¤
+            // ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
             backgroundB.sprite = backgrounds[i];
 
-            // ¾ËÆÄ°ª ¼­¼­È÷ Á¶Àý (¹è°æ ÆäÀÌµå)
+            // ï¿½ï¿½ï¿½Ä°ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ (ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Ìµï¿½)
             float t = 0;
 
             while (t < fadeDuration)
@@ -47,18 +47,18 @@ public class CutScenePlayer : MonoBehaviour
                 yield return null;
             }
 
-            // A¿Í B Swap
+            // Aï¿½ï¿½ B Swap
             var temp = backgroundA;
             backgroundA = backgroundB;
             backgroundB = temp;
 
             backgroundB.color = new Color(1, 1, 1, 0);
 
-            yield return new WaitForSeconds(2.5f); // ¹è°æ À¯Áö ½Ã°£
+            yield return new WaitForSeconds(2.5f); // ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½Ã°ï¿½
         }
     }
 
-    // ÀÚ¸· Àç»ý (ÄÚ·çÆ¾)
+    // ï¿½Ú¸ï¿½ ï¿½ï¿½ï¿½ (ï¿½Ú·ï¿½Æ¾)
     IEnumerator PlaySubtitle()
     {
         for (int i = 0; i < subtitles.Count; i++)
@@ -67,7 +67,7 @@ public class CutScenePlayer : MonoBehaviour
         }
     }
 
-    // ÀÚ¸· Å¸ÀÌÇÎ È¿°ú (ÄÚ·çÆ¾)
+    // ï¿½Ú¸ï¿½ Å¸ï¿½ï¿½ï¿½ï¿½ È¿ï¿½ï¿½ (ï¿½Ú·ï¿½Æ¾)
     IEnumerator ShowSubtitle(string sentence)
     {
         subtitleText.text = "";
@@ -75,9 +75,9 @@ public class CutScenePlayer : MonoBehaviour
         foreach (char c in sentence)
         {
             subtitleText.text += c;
-            yield return new WaitForSeconds(0.05f); // ¼Óµµ Á¶Àý °¡´É
+            yield return new WaitForSeconds(0.05f); // ï¿½Óµï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
         }
 
-        yield return new WaitForSeconds(1f); // ÀÚ¸· À¯Áö ½Ã°£
+        yield return new WaitForSeconds(1f); // ï¿½Ú¸ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½Ã°ï¿½
     }
 }
