@@ -135,7 +135,7 @@ void Start()
 
         // 2x2 구역의 중심 타일 좌표
         int centerTileX = groupX * groupSize + groupSize / 2;
-        int centerTileY = groupY * groupSize + groupSize / 2;
+        int centerTileY = groupY * groupSize + groupSize / 2-1;
         Vector3Int centerTilePos = new Vector3Int(centerTileX, centerTileY, tilePos.z);
 
         if (!tilemap.cellBounds.Contains(centerTilePos))

@@ -3,24 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\user\\Documents\\GitHub\\CleanProject\\GameEngineProgramming\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{55D90BEB-0F2D-375A-789E-14D6CBD4165D}|Assembly-CSharp.csproj|C:\\Users\\user\\Documents\\GitHub\\CleanProject\\GameEngineProgramming\\assets\\scripts\\micrecorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{55D90BEB-0F2D-375A-789E-14D6CBD4165D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\micrecorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{55D90BEB-0F2D-375A-789E-14D6CBD4165D}|Assembly-CSharp.csproj|c:\\users\\user\\documents\\github\\cleanproject\\gameengineprogramming\\assets\\scripts\\typingchallengemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55D90BEB-0F2D-375A-789E-14D6CBD4165D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\typingchallengemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{55D90BEB-0F2D-375A-789E-14D6CBD4165D}|Assembly-CSharp.csproj|c:\\users\\user\\documents\\github\\cleanproject\\gameengineprogramming\\assets\\scripts\\whisperrunner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{55D90BEB-0F2D-375A-789E-14D6CBD4165D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\whisperrunner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\user\\Documents\\GitHub\\CleanProject\\GameEngineProgramming\\Assets\\Scripts\\PrefabSpawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\PrefabSpawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{55D90BEB-0F2D-375A-789E-14D6CBD4165D}|Assembly-CSharp.csproj|C:\\Users\\user\\Documents\\GitHub\\CleanProject\\GameEngineProgramming\\assets\\scripts\\recognitionui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{55D90BEB-0F2D-375A-789E-14D6CBD4165D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\recognitionui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\user\\Documents\\GitHub\\CleanProject\\GameEngineProgramming\\Assets\\Scripts\\RecognitionUI.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\RecognitionUI.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{55D90BEB-0F2D-375A-789E-14D6CBD4165D}|Assembly-CSharp.csproj|C:\\Users\\user\\Documents\\GitHub\\CleanProject\\GameEngineProgramming\\assets\\scripts\\prefabspawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{55D90BEB-0F2D-375A-789E-14D6CBD4165D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\prefabspawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\user\\Documents\\GitHub\\CleanProject\\GameEngineProgramming\\Assets\\Scripts\\WhisperRunner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\WhisperRunner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{55D90BEB-0F2D-375A-789E-14D6CBD4165D}|Assembly-CSharp.csproj|C:\\Users\\user\\Documents\\GitHub\\CleanProject\\GameEngineProgramming\\assets\\scripts\\levenshteindistance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{55D90BEB-0F2D-375A-789E-14D6CBD4165D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\levenshteindistance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\user\\Documents\\GitHub\\CleanProject\\GameEngineProgramming\\Assets\\Scripts\\MicRecorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\MicRecorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\user\\Documents\\GitHub\\CleanProject\\GameEngineProgramming\\Assets\\Scripts\\LevenshteinDistance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\LevenshteinDistance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,8 +34,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "TypingChallengeManager.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\CleanProject\\GameEngineProgramming\\Assets\\Scripts\\TypingChallengeManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\TypingChallengeManager.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\GitHub\\CleanProject\\GameEngineProgramming\\Assets\\Scripts\\TypingChallengeManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\TypingChallengeManager.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T08:12:06.151Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 2,
@@ -46,45 +63,42 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "PrefabSpawner.cs",
               "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\CleanProject\\GameEngineProgramming\\Assets\\Scripts\\PrefabSpawner.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\PrefabSpawner.cs",
               "ToolTip": "C:\\Users\\user\\Documents\\GitHub\\CleanProject\\GameEngineProgramming\\Assets\\Scripts\\PrefabSpawner.cs",
               "RelativeToolTip": "Assets\\Scripts\\PrefabSpawner.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAwwBQAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-23T09:14:03.833Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "WhisperRunner.cs",
               "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\CleanProject\\GameEngineProgramming\\Assets\\Scripts\\WhisperRunner.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\WhisperRunner.cs",
               "ToolTip": "C:\\Users\\user\\Documents\\GitHub\\CleanProject\\GameEngineProgramming\\Assets\\Scripts\\WhisperRunner.cs",
               "RelativeToolTip": "Assets\\Scripts\\WhisperRunner.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAAwGoAAAAgAAAAAAAAAA==",
+              "ViewState": "AgIAAE8AAAAAAAAAAAAAAGgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-23T09:08:36.011Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-23T09:08:36.011Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "MicRecorder.cs",
               "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\CleanProject\\GameEngineProgramming\\Assets\\Scripts\\MicRecorder.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\MicRecorder.cs",
               "ToolTip": "C:\\Users\\user\\Documents\\GitHub\\CleanProject\\GameEngineProgramming\\Assets\\Scripts\\MicRecorder.cs",
               "RelativeToolTip": "Assets\\Scripts\\MicRecorder.cs",
-              "ViewState": "AgIAABsAAAAAAAAAAAAYwBQAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADAAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-23T08:06:48.454Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-23T08:06:48.454Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "LevenshteinDistance.cs",
               "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\CleanProject\\GameEngineProgramming\\Assets\\Scripts\\LevenshteinDistance.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\LevenshteinDistance.cs",
