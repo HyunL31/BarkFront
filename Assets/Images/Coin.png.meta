@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: ed6627d0482934843a4f204521486da1
+guid: 162163aa5cb1e1e47949a9182b4de92e
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 649223268058989734
-    second: Button_0
+      213: -4303098987963311925
+    second: free-icon-bitcoin-9382126_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -96,66 +96,27 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
-    buildTarget: Android
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
-    buildTarget: VisionOS
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
-    buildTarget: WebGL
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Button1_0
+      name: Coin
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 241
-        height: 224
+        width: 512
+        height: 512
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
-      border: {x: 115, y: 106, z: 113, w: 105}
+      border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 6a403906f11820900800000000000000
-      internalID: 649223268058989734
+      spriteID: bc89a1de4425844c0800000000000000
+      internalID: -4303098987963311925
       vertices: []
       indices: 
       edges: []
@@ -164,7 +125,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: e88ebfaf7e31746428acd9034babc88e
+    spriteID: 5a31eab775732b247ab169793ceb21cd
     internalID: 0
     vertices: []
     indices: 
@@ -174,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Button1_0: 649223268058989734
+      Coin: -4303098987963311925
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
