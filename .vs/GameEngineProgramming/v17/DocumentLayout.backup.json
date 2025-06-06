@@ -3,8 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\user\\Documents\\GitHub\\CleanProject\\GameEngineProgramming\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{55D90BEB-0F2D-375A-789E-14D6CBD4165D}|Assembly-CSharp.csproj|c:\\users\\user\\documents\\github\\cleanproject\\gameengineprogramming\\assets\\scripts\\typingchallengemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{55D90BEB-0F2D-375A-789E-14D6CBD4165D}|Assembly-CSharp.csproj|C:\\Users\\user\\Documents\\GitHub\\CleanProject\\GameEngineProgramming\\assets\\testingpixelbattletext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55D90BEB-0F2D-375A-789E-14D6CBD4165D}|Assembly-CSharp.csproj|solutionrelative:assets\\testingpixelbattletext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8DF86262-66EA-CF4B-D4E2-D74CE635FA7A}|UnityEngine.UI.csproj|c:\\users\\user\\documents\\github\\cleanproject\\gameengineprogramming\\library\\packagecache\\com.unity.ugui@9496653a3df6\\runtime\\ugui\\ui\\animation\\coroutinetween.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8DF86262-66EA-CF4B-D4E2-D74CE635FA7A}|UnityEngine.UI.csproj|solutionrelative:library\\packagecache\\com.unity.ugui@9496653a3df6\\runtime\\ugui\\ui\\animation\\coroutinetween.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8DF86262-66EA-CF4B-D4E2-D74CE635FA7A}|UnityEngine.UI.csproj|c:\\users\\user\\documents\\github\\cleanproject\\gameengineprogramming\\library\\packagecache\\com.unity.ugui@9496653a3df6\\runtime\\ugui\\ui\\core\\togglegroup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8DF86262-66EA-CF4B-D4E2-D74CE635FA7A}|UnityEngine.UI.csproj|solutionrelative:library\\packagecache\\com.unity.ugui@9496653a3df6\\runtime\\ugui\\ui\\core\\togglegroup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55D90BEB-0F2D-375A-789E-14D6CBD4165D}|Assembly-CSharp.csproj|C:\\Users\\user\\Documents\\GitHub\\CleanProject\\GameEngineProgramming\\assets\\scripts\\typingchallengemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{55D90BEB-0F2D-375A-789E-14D6CBD4165D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\typingchallengemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55D90BEB-0F2D-375A-789E-14D6CBD4165D}|Assembly-CSharp.csproj|C:\\Users\\user\\Documents\\GitHub\\CleanProject\\GameEngineProgramming\\assets\\scripts\\dogspawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55D90BEB-0F2D-375A-789E-14D6CBD4165D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\dogspawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\user\\Documents\\GitHub\\CleanProject\\GameEngineProgramming\\Assets\\Scripts\\PrefabSpawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -34,24 +50,74 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "TypingChallengeManager.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\CleanProject\\GameEngineProgramming\\Assets\\Scripts\\TypingChallengeManager.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\TypingChallengeManager.cs",
-              "ToolTip": "C:\\Users\\user\\Documents\\GitHub\\CleanProject\\GameEngineProgramming\\Assets\\Scripts\\TypingChallengeManager.cs",
-              "RelativeToolTip": "Assets\\Scripts\\TypingChallengeManager.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "CoroutineTween.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\CleanProject\\GameEngineProgramming\\Library\\PackageCache\\com.unity.ugui@9496653a3df6\\Runtime\\UGUI\\UI\\Animation\\CoroutineTween.cs",
+              "RelativeDocumentMoniker": "Library\\PackageCache\\com.unity.ugui@9496653a3df6\\Runtime\\UGUI\\UI\\Animation\\CoroutineTween.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\GitHub\\CleanProject\\GameEngineProgramming\\Library\\PackageCache\\com.unity.ugui@9496653a3df6\\Runtime\\UGUI\\UI\\Animation\\CoroutineTween.cs",
+              "RelativeToolTip": "Library\\PackageCache\\com.unity.ugui@9496653a3df6\\Runtime\\UGUI\\UI\\Animation\\CoroutineTween.cs",
+              "ViewState": "AgIAAPQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-04T08:12:06.151Z",
+              "WhenOpened": "2025-06-05T12:47:58.346Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "ToggleGroup.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\CleanProject\\GameEngineProgramming\\Library\\PackageCache\\com.unity.ugui@9496653a3df6\\Runtime\\UGUI\\UI\\Core\\ToggleGroup.cs",
+              "RelativeDocumentMoniker": "Library\\PackageCache\\com.unity.ugui@9496653a3df6\\Runtime\\UGUI\\UI\\Core\\ToggleGroup.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\GitHub\\CleanProject\\GameEngineProgramming\\Library\\PackageCache\\com.unity.ugui@9496653a3df6\\Runtime\\UGUI\\UI\\Core\\ToggleGroup.cs",
+              "RelativeToolTip": "Library\\PackageCache\\com.unity.ugui@9496653a3df6\\Runtime\\UGUI\\UI\\Core\\ToggleGroup.cs",
+              "ViewState": "AgIAAKcAAAAAAAAAAAAowAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T14:31:30.963Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "TestingPixelBattleText.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\CleanProject\\GameEngineProgramming\\Assets\\TestingPixelBattleText.cs",
+              "RelativeDocumentMoniker": "Assets\\TestingPixelBattleText.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\GitHub\\CleanProject\\GameEngineProgramming\\Assets\\TestingPixelBattleText.cs",
+              "RelativeToolTip": "Assets\\TestingPixelBattleText.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T14:28:31.311Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DogSpawner.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\CleanProject\\GameEngineProgramming\\Assets\\Scripts\\DogSpawner.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\DogSpawner.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\GitHub\\CleanProject\\GameEngineProgramming\\Assets\\Scripts\\DogSpawner.cs",
+              "RelativeToolTip": "Assets\\Scripts\\DogSpawner.cs",
+              "ViewState": "AgIAAIsAAAAAAAAAAAAgwJsAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T08:30:46.319Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "TypingChallengeManager.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\CleanProject\\GameEngineProgramming\\Assets\\Scripts\\TypingChallengeManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\TypingChallengeManager.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\GitHub\\CleanProject\\GameEngineProgramming\\Assets\\Scripts\\TypingChallengeManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\TypingChallengeManager.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAYwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T08:12:06.151Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "RecognitionUI.cs",
               "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\CleanProject\\GameEngineProgramming\\Assets\\Scripts\\RecognitionUI.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\RecognitionUI.cs",
@@ -63,7 +129,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "PrefabSpawner.cs",
               "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\CleanProject\\GameEngineProgramming\\Assets\\Scripts\\PrefabSpawner.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\PrefabSpawner.cs",
@@ -74,7 +140,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 7,
               "Title": "WhisperRunner.cs",
               "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\CleanProject\\GameEngineProgramming\\Assets\\Scripts\\WhisperRunner.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\WhisperRunner.cs",
@@ -86,7 +152,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 8,
               "Title": "MicRecorder.cs",
               "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\CleanProject\\GameEngineProgramming\\Assets\\Scripts\\MicRecorder.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\MicRecorder.cs",
@@ -98,7 +164,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 9,
               "Title": "LevenshteinDistance.cs",
               "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\CleanProject\\GameEngineProgramming\\Assets\\Scripts\\LevenshteinDistance.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\LevenshteinDistance.cs",
