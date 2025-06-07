@@ -1,6 +1,12 @@
-using UnityEngine;
+ï»¿using UnityEngine;
+using System;
 using System.Collections;
 using System.Collections.Generic;
+using Random = UnityEngine.Random;
+
+/// <summary>
+/// CCTV ë¡œë´‡ ì´ë²¤íŠ¸ ìŠ¤í¬ë¦½íŠ¸
+/// </summary>
 
 public class RobotEvent : MonoBehaviour
 {
@@ -15,7 +21,7 @@ public class RobotEvent : MonoBehaviour
 
     private bool isEventActive = false;
 
-    public System.Action OnGameEnded;               // CCTV °ÔÀÓÀÌ ³¡³µÀ» ¶§ È£ÃâµÉ Äİ¹é
+    public Action OnGameEnded;               // CCTV ê²Œì„ì´ ëë‚¬ì„ ë•Œ í˜¸ì¶œë  ì½œë°±
 
     void Awake()
     {
@@ -31,17 +37,18 @@ public class RobotEvent : MonoBehaviour
         cctvPanel.SetActive(false);
     }
 
-    // ³· ½Ã°£ µ¿¾È È£ÃâµÇ¾î ·£´ı ÀÌº¥Æ® ½Ã°£À» ¼³Á¤
+    // ë‚® ì‹œê°„ ë™ì•ˆ í˜¸ì¶œë˜ì–´ ëœë¤ ì´ë²¤íŠ¸ ì‹œê°„ì„ ì„¤ì •
     public void SetupRandomEvents(float dayDuration)
     {
         eventTimings.Clear();
         eventIndex = 0;
 
-        int eventCount = Random.Range(1, 4); // 1~3°³ÀÇ ·£´ı ÀÌº¥Æ®
+        int eventCount = Random.Range(1, 4); // 1~3ê°œì˜ ëœë¤ ì´ë²¤íŠ¸
 
         for (int i = 0; i < eventCount; i++)
         {
-            float randomTime = Random.Range(5f, dayDuration - 13f); // 5ÃÊ ~ ³¡-13ÃÊ »çÀÌ
+            float randomTime = Random.Range(5f, dayDuration - 13f); // ì‹œì‘ í›„ 5ì´ˆ ë’¤ë¶€í„° ëë‚˜ê¸° 13ì´ˆ ì „ê¹Œì§€
+
             eventTimings.Add(randomTime);
         }
 
@@ -57,6 +64,7 @@ public class RobotEvent : MonoBehaviour
         }
     }
 
+    // 
     public void ResetEvents()
     {
         StopAllCoroutines();
@@ -68,7 +76,7 @@ public class RobotEvent : MonoBehaviour
         eventIndex = 0;
     }
 
-    // ÀÌº¥Æ® Æ®¸®°Å ÇÔ¼ö & ÇÑ ¹ø¿¡ ÇÏ³ª¸¸ ½ÇÇà
+    // ì´ë²¤íŠ¸ íŠ¸ë¦¬ê±° í•¨ìˆ˜ & í•œ ë²ˆì— í•˜ë‚˜ë§Œ ì‹¤í–‰
     void TriggerEvent()
     {
         if (isEventActive)
@@ -76,26 +84,34 @@ public class RobotEvent : MonoBehaviour
             return;
         }
 
-        Debug.Log("ÀÌº¥Æ® ¹ß»ı");
         isEventActive = true;
         eventPanel.SetActive(true);
         StartCoroutine(FlashPanelAndStartGame());
     }
 
-    // ¾Ë¸² Á¡¸ê ÈÄ ¹Ì´Ï°ÔÀÓ ÆĞ³Î ¿­±â
+    // ì•Œë¦¼ ì ë©¸ í›„ ë¯¸ë‹ˆê²Œì„ íŒ¨ë„ ì—´ê¸°
     IEnumerator FlashPanelAndStartGame()
     { 
         int flashCount = 3;
         float flashSpeed = 0.25f;
 
+        // ì•Œë¦¼ ì ë©¸
         for (int i = 0; i < flashCount; i++)
         {
             canvasGroup.alpha = 1f;
             yield return new WaitForSeconds(flashSpeed);
+
             canvasGroup.alpha = 0f;
             yield return new WaitForSeconds(flashSpeed);
         }
 
+        // íƒ€ì´ë°ë°” ë¯¸ë‹ˆê²Œì„ ê°•ì œ ì¢…ë£Œ
+        if (BoxGameManager.Instance != null)
+        {
+            BoxGameManager.Instance.ForceClose();
+        }
+
+        // ë¯¸ë‹ˆê²Œì„ íŒ¨ë„ ì—´ê¸°
         eventPanel.SetActive(false);
         cctvPanel.SetActive(true);
 
@@ -106,7 +122,5 @@ public class RobotEvent : MonoBehaviour
 
             OnGameEnded = () => { isEventActive = false; };
         }
-
-        Debug.Log("cctv °ÔÀÓ ½ÃÀÛ");
     }
 }

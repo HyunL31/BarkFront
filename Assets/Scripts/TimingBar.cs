@@ -1,4 +1,4 @@
-using UnityEngine;
+癤퓎sing UnityEngine;
 
 public class TimingBar : MonoBehaviour
 {
@@ -11,56 +11,61 @@ public class TimingBar : MonoBehaviour
 
     private int successCount = 0;
     public int maxStage = 3;
-    public float targetShrinkFactor = 0.5f;
+    public float targetShrinkFactor = 0.1f;
+
+    private BoxGameManager manager;
 
     void Update()
     {
-        MovePointer(); // 매 프레임 포인터 이동
+        MovePointer();
 
         if (Input.GetKeyDown(KeyCode.Space))
         {
             if (IsPointerInTarget())
             {
-                Debug.Log("성공");
-
                 successCount++;
 
                 if (successCount < maxStage)
                 {
-                    ShrinkTargetZone(); // 성공했으므로 영역을 줄임
+                    ShrinkTargetZone();
                 }
                 else
                 {
-                    Debug.Log("최종 도달"); // 최대 단계 도달
+                    manager.OnTimingSuccess();
                 }
             }
             else
             {
-                Debug.Log("실패"); // 정타를 벗어났다면 실패
+                manager.OnTimingFail();
             }
         }
     }
 
-    // 포인터를 좌우로 이동시키는 함수
+    public void ResetBar(BoxGameManager mgr)
+    {
+        successCount = 0;
+        targetZone.SetSizeWithCurrentAnchors(RectTransform.Axis.Horizontal, 100f);
+        manager = mgr;
+        pointer.anchoredPosition = Vector2.zero;
+        goingRight = true;
+    }
+
     void MovePointer()
     {
         float direction = goingRight ? 1f : -1f;
         pointer.anchoredPosition += new Vector2(speed * direction * Time.deltaTime, 0f);
 
-        // 오른쪽 끝에 도달하면 방향 반전
-        if (pointer.anchoredPosition.x >= barArea.rect.width / 2)
+        if (pointer.anchoredPosition.x >= barArea.rect.width / 2 - 100)
         {
             goingRight = false;
         }
 
-        // 왼쪽 끝에 도달하면 방향 반전
-        else if (pointer.anchoredPosition.x <= -barArea.rect.width / 2)
+        else if (pointer.anchoredPosition.x <= -(barArea.rect.width / 2 - 100))
         {
             goingRight = true;
         }
     }
 
-    // 현재 포인터가 타겟 영역 안에 있는지 확인
     bool IsPointerInTarget()
     {
         float pointerX = pointer.anchoredPosition.x;
@@ -70,7 +75,7 @@ public class TimingBar : MonoBehaviour
         return pointerX >= targetLeft && pointerX <= targetRight;
     }
 
-    // 목표 영역의 너비를 줄이는 함수 (단계별 난이도 증가)
+    // Width of TargetZone
     void ShrinkTargetZone()
     {
         float newWidth = targetZone.rect.width * targetShrinkFactor;

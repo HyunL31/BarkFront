@@ -1,13 +1,14 @@
-using UnityEngine;
+ï»¿using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
 
 public class ResourceUI : MonoBehaviour
 {
+    [Header("UI ì—°ê²°")]
     public TMP_Text resourceText;
     public Image resourceImage;
 
-    // °¢°¢ÀÇ º¸»ó ¾ÆÀÌÅÛ¿¡ ´ëÀÀµÇ´Â ½ºÇÁ¶óÀÌÆ® ÀÌ¹ÌÁö
+    [Header("ìŠ¤í”„ë¼ì´íŠ¸")]
     public Sprite boneSprite;
     public Sprite chickenSprite;
     public Sprite meatSprite;
@@ -15,33 +16,41 @@ public class ResourceUI : MonoBehaviour
     public Sprite oxygenSprite;
     public Sprite coinSprite;
 
-    // ResourceManager¿¡¼­ º¸»ó Á¤º¸¸¦ ¹Ş¾Æ¿Í UI¿¡ Ç¥½ÃÇÏ´Â ÇÔ¼ö
     public void DisplayResource()
     {
         var resource = ResourceManager.Instance;
-        string dogName = ResourceManager.Instance.GetDogName(resource.currentSnack.Value);
 
         switch (resource.currentResourceType)
         {
-            case ResourceType.Snack:
-                resourceText.text = $"{dogName}ÀÇ °£½Ä: {resource.currentSnack}";
-                resourceImage.sprite = GetSnackSprite(resource.currentSnack.Value);
-                break;
+            //case ResourceType.Snack:
+            //    if (resource.currentSnack.HasValue)
+            //    {
+            //        SnackType snack = resource.currentSnack.Value;
+            //        string dogName = resource.GetDogName(snack);
+            //        resourceText.text = $"{dogName}ì˜ ê°„ì‹: {snack}";
+            //        resourceImage.sprite = GetSnackSprite(snack);
+            //        Debug.Log($"ğŸ– [ResourceUI] ê°„ì‹: {snack}, ì´ë¦„: {dogName}");
+            //    }
+            //    break;
 
             case ResourceType.Oxygen:
-                resourceText.text = "»ê¼Ò ¾ÆÀÌÅÛ È¹µæ!";
+                resourceText.text = "ì‚°ì†Œ ì•„ì´í…œ íšë“!";
                 resourceImage.sprite = oxygenSprite;
                 break;
 
             case ResourceType.Coin:
-                resourceText.text = $"ÄÚÀÎ {resource.coinAmount}°³ È¹µæ!";
+                resourceText.text = $"ì½”ì¸ {resource.coinAmount}ê°œ íšë“!";
                 resourceImage.sprite = coinSprite;
+                break;
+
+            default:
+                resourceText.text = "ì•Œ ìˆ˜ ì—†ëŠ” ë³´ìƒ";
+                resourceImage.sprite = null;
                 break;
         }
     }
 
-    // °£½Ä Å¸ÀÔ¿¡ µû¶ó ÀûÀıÇÑ ½ºÇÁ¶óÀÌÆ® ¹İÈ¯
-    Sprite GetSnackSprite(SnackType type)
+    private Sprite GetSnackSprite(SnackType type)
     {
         return type switch
         {

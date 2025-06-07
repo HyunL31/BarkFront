@@ -6,10 +6,10 @@ using System.Collections.Generic;
 public class AvoidCCTV : MonoBehaviour
 {
     [Header("감시 오브젝트")]
-    public GameObject targetCirclePrefab;             // CCTV 프리팹
-    public int numberOfTargets = 3;                   // CCTV 수
-    public float moveSpeed = 5f;                      // 이동 속도
-    public float detectionRadius = 1.5f;              // 감지 범위
+    public GameObject targetCirclePrefab;
+    public int numberOfTargets = 3;
+    public float moveSpeed = 5f;
+    public float detectionRadius = 1.5f;
 
     [Header("UI 및 플레이어")]
     public Transform playerTransform;
@@ -21,10 +21,30 @@ public class AvoidCCTV : MonoBehaviour
     public float gameDuration = 10f;
     public AudioSource alert;
 
+    [Header("결과 패널")]
+    public GameObject successPanel;
+    public GameObject failPanel;
+
     private List<Transform> targetObjects = new List<Transform>();
     private List<Vector3> targetDestinations = new List<Vector3>();
 
     private bool gameEnded = false;
+
+    public static AvoidCCTV Instance;
+
+    public bool IsPlayingCCTVGame { get; private set; } = false;
+
+    private void Awake()
+    {
+        if (Instance == null)
+        {
+            Instance = this;
+        }
+        else
+        {
+            Destroy(gameObject);
+        }
+    }
 
     void OnEnable()
     {
@@ -60,6 +80,8 @@ public class AvoidCCTV : MonoBehaviour
 
     IEnumerator StartGame()
     {
+        IsPlayingCCTVGame = true;
+
         alert.Play();
 
         float timer = 0f;
@@ -75,9 +97,9 @@ public class AvoidCCTV : MonoBehaviour
             yield return null;
         }
 
+        // 타이머 초과 실패
         if (!gameEnded)
         {
-            Debug.Log("타이머 초과 실패");
             Vector2 screenPos = Camera.main.WorldToScreenPoint(playerTransform.position);
             StartCoroutine(CaptureAndShowSnapshot(screenPos));
             EndGame();
@@ -107,35 +129,33 @@ public class AvoidCCTV : MonoBehaviour
 
         return Camera.main.ScreenToWorldPoint(new Vector3(randomScreenPos.x, randomScreenPos.y, 10f));
     }
-
     void TryEvade()
     {
-        if (gameEnded)
-        {
-            return;
-        }
+        if (gameEnded) return;
 
         Vector3 playerPos = playerTransform.position;
 
-        // CCTV 중 하나라도 범위 안이면 실패
+        // 실패 판정
         foreach (Transform target in targetObjects)
         {
             if (Vector3.Distance(playerPos, target.position) < detectionRadius)
             {
-                Debug.Log("실패");
+                ResourceManager.Instance.AddCoin(-10);
+
                 Vector2 screenPos = Camera.main.WorldToScreenPoint(playerPos);
-                StartCoroutine(CaptureAndShowSnapshot(screenPos));
-                EndGame();
+                StartCoroutine(HandleFailure(screenPos));
                 return;
             }
         }
 
-        Debug.Log("성공");
-        EndGame();
+        // 성공 판정
+        StartCoroutine(HandleSuccess());
     }
 
     void EndGame()
     {
+        IsPlayingCCTVGame = false;
+
         gameEnded = true;
         evadeButton.gameObject.SetActive(false);
 
@@ -151,6 +171,7 @@ public class AvoidCCTV : MonoBehaviour
         alert.Stop();
     }
 
+    // 실패 시 플레이어 캡처
     IEnumerator CaptureAndShowSnapshot(Vector2 screenPos)
     {
         yield return new WaitForEndOfFrame();
@@ -173,5 +194,41 @@ public class AvoidCCTV : MonoBehaviour
         yield return new WaitForSeconds(2f);
 
         snapshotPanel.SetActive(false);
+    }
+
+    IEnumerator HandleFailure(Vector2 screenPos)
+    {
+        yield return StartCoroutine(CaptureAndShowSnapshot(screenPos));
+
+        if (failPanel != null)
+        {
+            failPanel.SetActive(true);
+        }
+
+        EndGame();
+
+        yield return new WaitForSeconds(2f);
+
+        if (failPanel != null)
+        {
+            failPanel.SetActive(false);
+        }
+    }
+
+    IEnumerator HandleSuccess()
+    {
+        if (successPanel != null)
+        {
+            successPanel.SetActive(true);
+        }
+
+        EndGame();
+
+        yield return new WaitForSeconds(2f);
+
+        if (successPanel != null)
+        {
+            successPanel.SetActive(false);
+        }
     }
 }

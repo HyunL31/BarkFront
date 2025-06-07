@@ -3,44 +3,56 @@
   "WorkspaceRootPath": "C:\\UnityProject\\GameEngineProgramming\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{55D90BEB-0F2D-375A-789E-14D6CBD4165D}|Assembly-CSharp.csproj|c:\\unityproject\\gameengineprogramming\\assets\\scripts\\cutsceneplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{55D90BEB-0F2D-375A-789E-14D6CBD4165D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\cutsceneplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{55D90BEB-0F2D-375A-789E-14D6CBD4165D}|Assembly-CSharp.csproj|C:\\UnityProject\\GameEngineProgramming\\assets\\scripts\\scenenavigator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{55D90BEB-0F2D-375A-789E-14D6CBD4165D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\scenenavigator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{55D90BEB-0F2D-375A-789E-14D6CBD4165D}|Assembly-CSharp.csproj|C:\\UnityProject\\GameEngineProgramming\\assets\\scripts\\boxgamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{55D90BEB-0F2D-375A-789E-14D6CBD4165D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\boxgamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{55D90BEB-0F2D-375A-789E-14D6CBD4165D}|Assembly-CSharp.csproj|C:\\UnityProject\\GameEngineProgramming\\assets\\scripts\\resourcemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55D90BEB-0F2D-375A-789E-14D6CBD4165D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\resourcemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{55D90BEB-0F2D-375A-789E-14D6CBD4165D}|Assembly-CSharp.csproj|C:\\UnityProject\\GameEngineProgramming\\assets\\scripts\\avoidcctv.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{55D90BEB-0F2D-375A-789E-14D6CBD4165D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\avoidcctv.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\UnityProject\\GameEngineProgramming\\assets\\assetstore\\cainos\\pixel art top down - basic\\script\\initialcollidersetup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:assets\\assetstore\\cainos\\pixel art top down - basic\\script\\initialcollidersetup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{55D90BEB-0F2D-375A-789E-14D6CBD4165D}|Assembly-CSharp.csproj|C:\\UnityProject\\GameEngineProgramming\\assets\\scripts\\cutsceneplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55D90BEB-0F2D-375A-789E-14D6CBD4165D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\cutsceneplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\UnityProject\\GameEngineProgramming\\assets\\assetstore\\cainos\\pixel art top down - basic\\script\\lootbox.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:assets\\assetstore\\cainos\\pixel art top down - basic\\script\\lootbox.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{55D90BEB-0F2D-375A-789E-14D6CBD4165D}|Assembly-CSharp.csproj|C:\\UnityProject\\GameEngineProgramming\\assets\\scripts\\lootchest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55D90BEB-0F2D-375A-789E-14D6CBD4165D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\lootchest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\UnityProject\\GameEngineProgramming\\assets\\assetstore\\cainos\\pixel art top down - basic\\script\\lootresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:assets\\assetstore\\cainos\\pixel art top down - basic\\script\\lootresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{55D90BEB-0F2D-375A-789E-14D6CBD4165D}|Assembly-CSharp.csproj|C:\\UnityProject\\GameEngineProgramming\\assets\\scripts\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55D90BEB-0F2D-375A-789E-14D6CBD4165D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\UnityProject\\GameEngineProgramming\\assets\\assetstore\\cainos\\pixel art top down - basic\\script\\stairslayertrigger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:assets\\assetstore\\cainos\\pixel art top down - basic\\script\\stairslayertrigger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{55D90BEB-0F2D-375A-789E-14D6CBD4165D}|Assembly-CSharp.csproj|c:\\unityproject\\gameengineprogramming\\assets\\scripts\\spritecoloranimation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55D90BEB-0F2D-375A-789E-14D6CBD4165D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\spritecoloranimation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\UnityProject\\GameEngineProgramming\\assets\\assetstore\\cainos\\pixel art top down - basic\\script\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:assets\\assetstore\\cainos\\pixel art top down - basic\\script\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{55D90BEB-0F2D-375A-789E-14D6CBD4165D}|Assembly-CSharp.csproj|C:\\UnityProject\\GameEngineProgramming\\assets\\scripts\\robotevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55D90BEB-0F2D-375A-789E-14D6CBD4165D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\robotevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\UnityProject\\GameEngineProgramming\\assets\\assetstore\\cainos\\pixel art top down - basic\\script\\topdowncharactercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:assets\\assetstore\\cainos\\pixel art top down - basic\\script\\topdowncharactercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{55D90BEB-0F2D-375A-789E-14D6CBD4165D}|Assembly-CSharp.csproj|C:\\UnityProject\\GameEngineProgramming\\assets\\scripts\\hud.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55D90BEB-0F2D-375A-789E-14D6CBD4165D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\hud.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55D90BEB-0F2D-375A-789E-14D6CBD4165D}|Assembly-CSharp.csproj|C:\\UnityProject\\GameEngineProgramming\\assets\\scripts\\resourceui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55D90BEB-0F2D-375A-789E-14D6CBD4165D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\resourceui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55D90BEB-0F2D-375A-789E-14D6CBD4165D}|Assembly-CSharp.csproj|C:\\UnityProject\\GameEngineProgramming\\assets\\scripts\\uimanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55D90BEB-0F2D-375A-789E-14D6CBD4165D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\uimanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55D90BEB-0F2D-375A-789E-14D6CBD4165D}|Assembly-CSharp.csproj|C:\\UnityProject\\GameEngineProgramming\\assets\\scripts\\timingbar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55D90BEB-0F2D-375A-789E-14D6CBD4165D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\timingbar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55D90BEB-0F2D-375A-789E-14D6CBD4165D}|Assembly-CSharp.csproj|C:\\UnityProject\\GameEngineProgramming\\assets\\scripts\\boxgamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55D90BEB-0F2D-375A-789E-14D6CBD4165D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\boxgamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55D90BEB-0F2D-375A-789E-14D6CBD4165D}|Assembly-CSharp.csproj|C:\\UnityProject\\GameEngineProgramming\\assets\\scripts\\lootresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55D90BEB-0F2D-375A-789E-14D6CBD4165D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\lootresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -49,129 +61,170 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 223,
-          "SelectedChildIndex": 0,
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "CutScenePlayer.cs",
               "DocumentMoniker": "C:\\UnityProject\\GameEngineProgramming\\Assets\\Scripts\\CutScenePlayer.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\CutScenePlayer.cs",
               "ToolTip": "C:\\UnityProject\\GameEngineProgramming\\Assets\\Scripts\\CutScenePlayer.cs",
               "RelativeToolTip": "Assets\\Scripts\\CutScenePlayer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAWAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-05T10:47:32.584Z",
+              "WhenOpened": "2025-06-07T11:12:30.393Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "BoxGameManager.cs",
-              "DocumentMoniker": "C:\\UnityProject\\GameEngineProgramming\\Assets\\Scripts\\BoxGameManager.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\BoxGameManager.cs",
-              "ToolTip": "C:\\UnityProject\\GameEngineProgramming\\Assets\\Scripts\\BoxGameManager.cs",
-              "RelativeToolTip": "Assets\\Scripts\\BoxGameManager.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "ResourceManager.cs",
+              "DocumentMoniker": "C:\\UnityProject\\GameEngineProgramming\\Assets\\Scripts\\ResourceManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\ResourceManager.cs",
+              "ToolTip": "C:\\UnityProject\\GameEngineProgramming\\Assets\\Scripts\\ResourceManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\ResourceManager.cs",
+              "ViewState": "AgIAADUAAAAAAAAAAAAiwEwAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-05T09:25:22.497Z"
+              "WhenOpened": "2025-06-07T09:45:54.188Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "SceneNavigator.cs",
-              "DocumentMoniker": "C:\\UnityProject\\GameEngineProgramming\\Assets\\Scripts\\SceneNavigator.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\SceneNavigator.cs",
-              "ToolTip": "C:\\UnityProject\\GameEngineProgramming\\Assets\\Scripts\\SceneNavigator.cs",
-              "RelativeToolTip": "Assets\\Scripts\\SceneNavigator.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAnAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-05T09:22:41.578Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
               "Title": "AvoidCCTV.cs",
               "DocumentMoniker": "C:\\UnityProject\\GameEngineProgramming\\Assets\\Scripts\\AvoidCCTV.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\AvoidCCTV.cs",
               "ToolTip": "C:\\UnityProject\\GameEngineProgramming\\Assets\\Scripts\\AvoidCCTV.cs",
               "RelativeToolTip": "Assets\\Scripts\\AvoidCCTV.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAKYAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAH0AAAAAAAAAAAAcwCIAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-05T09:04:13.262Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "InitialColliderSetUp.cs",
-              "DocumentMoniker": "C:\\UnityProject\\GameEngineProgramming\\Assets\\AssetStore\\Cainos\\Pixel Art Top Down - Basic\\Script\\InitialColliderSetUp.cs",
-              "RelativeDocumentMoniker": "Assets\\AssetStore\\Cainos\\Pixel Art Top Down - Basic\\Script\\InitialColliderSetUp.cs",
-              "ToolTip": "C:\\UnityProject\\GameEngineProgramming\\Assets\\AssetStore\\Cainos\\Pixel Art Top Down - Basic\\Script\\InitialColliderSetUp.cs",
-              "RelativeToolTip": "Assets\\AssetStore\\Cainos\\Pixel Art Top Down - Basic\\Script\\InitialColliderSetUp.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAsAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-01T16:19:32.269Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "LootBox.cs",
-              "DocumentMoniker": "C:\\UnityProject\\GameEngineProgramming\\Assets\\AssetStore\\Cainos\\Pixel Art Top Down - Basic\\Script\\LootBox.cs",
-              "RelativeDocumentMoniker": "Assets\\AssetStore\\Cainos\\Pixel Art Top Down - Basic\\Script\\LootBox.cs",
-              "ToolTip": "C:\\UnityProject\\GameEngineProgramming\\Assets\\AssetStore\\Cainos\\Pixel Art Top Down - Basic\\Script\\LootBox.cs",
-              "RelativeToolTip": "Assets\\AssetStore\\Cainos\\Pixel Art Top Down - Basic\\Script\\LootBox.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-02T06:53:09.531Z"
+              "WhenOpened": "2025-06-07T09:23:49.395Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "LootResult.cs",
-              "DocumentMoniker": "C:\\UnityProject\\GameEngineProgramming\\Assets\\AssetStore\\Cainos\\Pixel Art Top Down - Basic\\Script\\LootResult.cs",
-              "RelativeDocumentMoniker": "Assets\\AssetStore\\Cainos\\Pixel Art Top Down - Basic\\Script\\LootResult.cs",
-              "ToolTip": "C:\\UnityProject\\GameEngineProgramming\\Assets\\AssetStore\\Cainos\\Pixel Art Top Down - Basic\\Script\\LootResult.cs",
-              "RelativeToolTip": "Assets\\AssetStore\\Cainos\\Pixel Art Top Down - Basic\\Script\\LootResult.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACkAAAA+AAAAAAAAAA==",
+              "Title": "RobotEvent.cs",
+              "DocumentMoniker": "C:\\UnityProject\\GameEngineProgramming\\Assets\\Scripts\\RobotEvent.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\RobotEvent.cs",
+              "ToolTip": "C:\\UnityProject\\GameEngineProgramming\\Assets\\Scripts\\RobotEvent.cs",
+              "RelativeToolTip": "Assets\\Scripts\\RobotEvent.cs",
+              "ViewState": "AgIAAFwAAAAAAAAAAAA2wHQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-02T06:45:33.646Z"
+              "WhenOpened": "2025-06-07T09:15:19.96Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "StairsLayerTrigger.cs",
-              "DocumentMoniker": "C:\\UnityProject\\GameEngineProgramming\\Assets\\AssetStore\\Cainos\\Pixel Art Top Down - Basic\\Script\\StairsLayerTrigger.cs",
-              "RelativeDocumentMoniker": "Assets\\AssetStore\\Cainos\\Pixel Art Top Down - Basic\\Script\\StairsLayerTrigger.cs",
-              "ToolTip": "C:\\UnityProject\\GameEngineProgramming\\Assets\\AssetStore\\Cainos\\Pixel Art Top Down - Basic\\Script\\StairsLayerTrigger.cs",
-              "RelativeToolTip": "Assets\\AssetStore\\Cainos\\Pixel Art Top Down - Basic\\Script\\StairsLayerTrigger.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAzAAAAAAAAAA==",
+              "Title": "HUD.cs",
+              "DocumentMoniker": "C:\\UnityProject\\GameEngineProgramming\\Assets\\Scripts\\HUD.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\HUD.cs",
+              "ToolTip": "C:\\UnityProject\\GameEngineProgramming\\Assets\\Scripts\\HUD.cs",
+              "RelativeToolTip": "Assets\\Scripts\\HUD.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-31T12:17:58.299Z"
+              "WhenOpened": "2025-06-07T09:03:46.232Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 8,
-              "Title": "PlayerMovement.cs",
-              "DocumentMoniker": "C:\\UnityProject\\GameEngineProgramming\\Assets\\AssetStore\\Cainos\\Pixel Art Top Down - Basic\\Script\\PlayerMovement.cs",
-              "RelativeDocumentMoniker": "Assets\\AssetStore\\Cainos\\Pixel Art Top Down - Basic\\Script\\PlayerMovement.cs",
-              "ToolTip": "C:\\UnityProject\\GameEngineProgramming\\Assets\\AssetStore\\Cainos\\Pixel Art Top Down - Basic\\Script\\PlayerMovement.cs",
-              "RelativeToolTip": "Assets\\AssetStore\\Cainos\\Pixel Art Top Down - Basic\\Script\\PlayerMovement.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEIAAAARAAAAAAAAAA==",
+              "Title": "ResourceUI.cs",
+              "DocumentMoniker": "C:\\UnityProject\\GameEngineProgramming\\Assets\\Scripts\\ResourceUI.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\ResourceUI.cs",
+              "ToolTip": "C:\\UnityProject\\GameEngineProgramming\\Assets\\Scripts\\ResourceUI.cs",
+              "RelativeToolTip": "Assets\\Scripts\\ResourceUI.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAAAwCoAAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-02T08:08:38.893Z"
+              "WhenOpened": "2025-06-07T08:51:46.001Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 9,
-              "Title": "TopDownCharacterController.cs",
-              "DocumentMoniker": "C:\\UnityProject\\GameEngineProgramming\\Assets\\AssetStore\\Cainos\\Pixel Art Top Down - Basic\\Script\\TopDownCharacterController.cs",
-              "RelativeDocumentMoniker": "Assets\\AssetStore\\Cainos\\Pixel Art Top Down - Basic\\Script\\TopDownCharacterController.cs",
-              "ToolTip": "C:\\UnityProject\\GameEngineProgramming\\Assets\\AssetStore\\Cainos\\Pixel Art Top Down - Basic\\Script\\TopDownCharacterController.cs",
-              "RelativeToolTip": "Assets\\AssetStore\\Cainos\\Pixel Art Top Down - Basic\\Script\\TopDownCharacterController.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAAUwEAAAAAJAAAAAAAAAA==",
+              "Title": "UIManager.cs",
+              "DocumentMoniker": "C:\\UnityProject\\GameEngineProgramming\\Assets\\Scripts\\UIManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\UIManager.cs",
+              "ToolTip": "C:\\UnityProject\\GameEngineProgramming\\Assets\\Scripts\\UIManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\UIManager.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAIwC4AAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-31T12:24:33.582Z"
+              "WhenOpened": "2025-06-07T08:50:56.677Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Player.cs",
+              "DocumentMoniker": "C:\\UnityProject\\GameEngineProgramming\\Assets\\Scripts\\Player.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Player.cs",
+              "ToolTip": "C:\\UnityProject\\GameEngineProgramming\\Assets\\Scripts\\Player.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Player.cs",
+              "ViewState": "AgIAAFQAAAAAAAAAAAAIwGcAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-06T15:11:45.648Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "TimingBar.cs",
+              "DocumentMoniker": "C:\\UnityProject\\GameEngineProgramming\\Assets\\Scripts\\TimingBar.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\TimingBar.cs",
+              "ToolTip": "C:\\UnityProject\\GameEngineProgramming\\Assets\\Scripts\\TimingBar.cs",
+              "RelativeToolTip": "Assets\\Scripts\\TimingBar.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-06T15:17:36.845Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "BoxGameManager.cs",
+              "DocumentMoniker": "C:\\UnityProject\\GameEngineProgramming\\Assets\\Scripts\\BoxGameManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\BoxGameManager.cs",
+              "ToolTip": "C:\\UnityProject\\GameEngineProgramming\\Assets\\Scripts\\BoxGameManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\BoxGameManager.cs",
+              "ViewState": "AgIAACoAAAAAAAAAAAAYwAgAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-06T15:18:16.503Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "LootResult.cs",
+              "DocumentMoniker": "C:\\UnityProject\\GameEngineProgramming\\Assets\\Scripts\\LootResult.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\LootResult.cs",
+              "ToolTip": "C:\\UnityProject\\GameEngineProgramming\\Assets\\Scripts\\LootResult.cs",
+              "RelativeToolTip": "Assets\\Scripts\\LootResult.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-06T14:02:54.694Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "LootChest.cs",
+              "DocumentMoniker": "C:\\UnityProject\\GameEngineProgramming\\Assets\\Scripts\\LootChest.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\LootChest.cs",
+              "ToolTip": "C:\\UnityProject\\GameEngineProgramming\\Assets\\Scripts\\LootChest.cs",
+              "RelativeToolTip": "Assets\\Scripts\\LootChest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-06T14:02:07.405Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "SpriteColorAnimation.cs",
+              "DocumentMoniker": "C:\\UnityProject\\GameEngineProgramming\\Assets\\Scripts\\SpriteColorAnimation.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\SpriteColorAnimation.cs",
+              "ToolTip": "C:\\UnityProject\\GameEngineProgramming\\Assets\\Scripts\\SpriteColorAnimation.cs",
+              "RelativeToolTip": "Assets\\Scripts\\SpriteColorAnimation.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-07T11:21:35.472Z",
+              "EditorCaption": ""
             }
           ]
         }

@@ -1,38 +1,59 @@
-using UnityEngine;
+癤퓎sing UnityEngine;
 using System;
 
 public class BoxGameManager : MonoBehaviour
 {
     public static BoxGameManager Instance;
+    public TimingBar timingBar;
 
-    private Action onSuccessCallback;            // 미니게임 성공 시 실행할 콜백 함수
+    private Action onSuccessCallback;
 
-    void Awake()
+    public bool IsPlayingMiniGame => timingBar.gameObject.activeSelf;
+
+    private void Awake()
     {
         if (Instance == null)
         {
             Instance = this;
         }
+        else
+        {
+            Destroy(gameObject);
+        }
     }
 
-    // 미니게임 시작 요청 시 호출됨
-    // 콜백을 등록해두고, 성공 시 호출되도록 설정
+    void Start()
+    {
+        gameObject.SetActive(true);
+        timingBar.gameObject.SetActive(false);
+    }
+
     public void StartMiniGame(Action onSuccess)
     {
-        this.onSuccessCallback = onSuccess;
+        onSuccessCallback = onSuccess;
+        gameObject.SetActive(true);
+        timingBar.ResetBar(this);
     }
 
-    // 미니게임이 성공했을 때 호출되는 함수
-    public void MiniGameSuccess()
+    public void OnTimingSuccess()
     {
-        Debug.Log("미니게임 성공");
+        if (onSuccessCallback != null)
+        {
+            onSuccessCallback.Invoke();
+        }
 
-        // 등록된 콜백 실행
-        onSuccessCallback?.Invoke();
-
-        // 미니게임 비활성화
         gameObject.SetActive(false);
     }
 
-    // 실패 처리 예정
+    public void OnTimingFail()
+    { 
+        gameObject.SetActive(false);
+    }
+
+    // For CCTV Game
+    public void ForceClose()
+    {
+        gameObject.SetActive(false);
+        timingBar.gameObject.SetActive(false);
+    }
 }

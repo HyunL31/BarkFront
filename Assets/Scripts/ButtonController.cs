@@ -2,6 +2,10 @@ using System.Collections;
 using UnityEngine;
 using UnityEngine.UI;
 
+/// <summary>
+/// 버튼 컨트롤 스크립트
+/// </summary>
+
 public class ButtonController : MonoBehaviour
 {
     public CanvasGroup startButton;
@@ -11,6 +15,7 @@ public class ButtonController : MonoBehaviour
         StartCoroutine(BlinkButton());
     }
 
+    // 컷씬
     public void StartButton(GameObject startPanel)
     {
         startPanel.SetActive(false);
@@ -21,6 +26,7 @@ public class ButtonController : MonoBehaviour
         cutscene.SetActive(true);
     }
 
+    // 버튼 점멸
     IEnumerator BlinkButton()
     {
         while (true)

@@ -107,9 +107,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 17
+        y: 68
         width: 512
-        height: 478
+        height: 374
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -120,28 +120,6 @@ TextureImporter:
       bones: []
       spriteID: d4ddc5b47c698f060800000000000000
       internalID: 6987500604572360013
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: free-icon-o2-5825207_1
-      rect:
-        serializedVersion: 2
-        x: 53
-        y: 347
-        width: 91
-        height: 92
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: e3a760b6c4d52a4d0800000000000000
-      internalID: -3124832608647218626
       vertices: []
       indices: 
       edges: []

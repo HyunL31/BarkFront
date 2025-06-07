@@ -5,6 +5,10 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
+/// <summary>
+/// 컷씬 스크립트
+/// </summary>
+
 public class CutScenePlayer : MonoBehaviour
 {
     // 인스펙터에서 설정 가능하도록 직렬화
