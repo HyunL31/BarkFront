@@ -4,7 +4,7 @@ using UnityEngine;
 
 namespace Cainos.PixelArtTopDown_Basic
 {
-    public class TopDownCharacterController : MonoBehaviour
+    public class NewPlayerMovement : MonoBehaviour
     {
         public float speed;
 
