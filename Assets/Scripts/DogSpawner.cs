@@ -14,6 +14,7 @@ public class DogSpawner : MonoBehaviour
     public TMP_InputField challengeInput;
     public Tilemap tilemap;
     public ToggleGroup toggleGroup;
+    public Image progressBar;
 
     private int selectedIndex = -1;
     private Dictionary<Vector2Int, GameObject> spawnedGroups = new Dictionary<Vector2Int, GameObject>();
@@ -57,6 +58,7 @@ public class DogSpawner : MonoBehaviour
             });
         }
 
+        challengeInput.onValueChanged.AddListener(UpdateTypingEffect); // 실시간 입력 반영
         challengeInput.onEndEdit.AddListener(OnChallengeEndEdit);
         challengeInput.gameObject.SetActive(false);
     }
@@ -66,6 +68,27 @@ public class DogSpawner : MonoBehaviour
         timer = challengeTime;
         isChallengeActive = true;
         isSpawnReady = false;
+        UpdateTypingEffect(""); // 초기화
+    }
+
+    void UpdateTypingEffect(string typed)
+    {
+        if (!isChallengeActive || string.IsNullOrEmpty(currentChallenge)) return;
+
+        if (currentChallenge.StartsWith(typed))
+        {
+            string rest = currentChallenge.Substring(typed.Length);
+            challengeText.text = $"<b><color=#ffffff>{typed}</color></b><color=#888888>{rest}</color>";
+
+            if (progressBar != null)
+                progressBar.fillAmount = (float)typed.Length / currentChallenge.Length;
+        }
+        else
+        {
+            challengeText.text = $"<color=#ff0000>{typed}</color>"; // 틀릴 경우 붉게
+            if (progressBar != null)
+                progressBar.fillAmount = 0f;
+        }
     }
 
     void OnChallengeEndEdit(string input)
@@ -82,7 +105,7 @@ public class DogSpawner : MonoBehaviour
         }
         else
         {
-            challengeInput.text = "";
+            challengeInput.text = ""; // 다시 시도
         }
     }
 
@@ -91,7 +114,8 @@ public class DogSpawner : MonoBehaviour
         if (isChallengeActive)
         {
             timer -= Time.deltaTime;
-            timerText.text = timer.ToString("F1") + "sec";
+            timerText.text = timer.ToString("F1") + " sec";
+
             if (timer <= 0f)
             {
                 isChallengeActive = false;
@@ -115,50 +139,43 @@ public class DogSpawner : MonoBehaviour
         mouseScreenPos.z = Mathf.Abs(Camera.main.transform.position.z - tilemap.transform.position.z);
         Vector3 worldPos = Camera.main.ScreenToWorldPoint(mouseScreenPos);
 
-        // 클릭 위치에 해당하는 타일 좌표
         Vector3Int baseTilePos = tilemap.WorldToCell(worldPos);
-
-        // 짝수 x 기준으로 2칸 그룹 만들기
         int groupX = baseTilePos.x % 2 == 0 ? baseTilePos.x : baseTilePos.x - 1;
         Vector3Int leftTilePos = new Vector3Int(groupX, baseTilePos.y, baseTilePos.z);
         Vector3Int rightTilePos = new Vector3Int(groupX + 1, baseTilePos.y, baseTilePos.z);
 
-        // 그룹 키
         Vector2Int groupKey = new Vector2Int(groupX / 2, baseTilePos.y);
         if (spawnedGroups.ContainsKey(groupKey))
             return;
 
-        // 두 칸 모두 타일이 있어야만 소환
         if (!(tilemap.HasTile(leftTilePos) && tilemap.HasTile(rightTilePos)))
             return;
 
-        // 중앙 위치 계산
         Vector3 leftCenter = tilemap.GetCellCenterWorld(leftTilePos);
         Vector3 rightCenter = tilemap.GetCellCenterWorld(rightTilePos);
         Vector3 spawnPos = (leftCenter + rightCenter) / 2f;
         spawnPos.z = 0;
 
-        // 프리팹 소환
         GameObject dog = Instantiate(dogPrefabs[selectedIndex], spawnPos, Quaternion.identity);
         spawnedGroups.Add(groupKey, dog);
 
-        // UI 및 상태 초기화
         isSpawnReady = false;
         challengeText.text = "";
         timerText.text = "";
         challengeInput.gameObject.SetActive(false);
+        progressBar.fillAmount = 0f;
 
         foreach (var toggle in toggles)
             toggle.isOn = false;
 
         selectedIndex = -1;
     }
+
     private void OnDrawGizmos()
     {
         if (tilemap == null) return;
 
         BoundsInt bounds = tilemap.cellBounds;
-
         for (int y = bounds.yMin; y <= bounds.yMax; y++)
         {
             for (int x = bounds.xMin; x <= bounds.xMax; x += 2)
@@ -173,18 +190,15 @@ public class DogSpawner : MonoBehaviour
                     Vector3 center = (leftCenter + rightCenter) / 2f;
                     center.z = 0;
 
-                    // 회색 반투명 박스로 표시
                     Gizmos.color = new Color(0.5f, 0.5f, 1f, 0.3f);
                     Gizmos.DrawCube(center, new Vector3(1f, 1f, 0.1f));
 
-                    // 테두리
                     Gizmos.color = Color.cyan;
                     Gizmos.DrawWireCube(center, new Vector3(1f, 1f, 0.1f));
                 }
             }
         }
     }
-
-
 }
+
 
