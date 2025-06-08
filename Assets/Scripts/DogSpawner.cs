@@ -15,6 +15,7 @@ public class DogSpawner : MonoBehaviour
     public Tilemap tilemap;
     public ToggleGroup toggleGroup;
     public Image progressBar;
+    public int[] dogCosts;
 
     private int selectedIndex = -1;
     private Dictionary<Vector2Int, GameObject> spawnedGroups = new Dictionary<Vector2Int, GameObject>();
@@ -135,6 +136,11 @@ public class DogSpawner : MonoBehaviour
 
     void SpawnDogWithImprovedLogic()
     {
+        if(!ResourceManager.Instance.SpendCoin(dogCosts[selectedIndex]))
+        {
+            Debug.Log("코인이 부족해서 강아지를 소환할 수 없습니다");
+            return;
+        }
         Vector3 mouseScreenPos = Input.mousePosition;
         mouseScreenPos.z = Mathf.Abs(Camera.main.transform.position.z - tilemap.transform.position.z);
         Vector3 worldPos = Camera.main.ScreenToWorldPoint(mouseScreenPos);
