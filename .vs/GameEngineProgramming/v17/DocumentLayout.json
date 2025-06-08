@@ -3,8 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\user\\Documents\\GitHub\\CleanProject\\GameEngineProgramming\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{55D90BEB-0F2D-375A-789E-14D6CBD4165D}|Assembly-CSharp.csproj|c:\\users\\user\\documents\\github\\cleanproject\\gameengineprogramming\\assets\\scripts\\dogspawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{55D90BEB-0F2D-375A-789E-14D6CBD4165D}|Assembly-CSharp.csproj|c:\\users\\user\\documents\\github\\cleanproject\\gameengineprogramming\\assets\\scripts\\enemyattack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55D90BEB-0F2D-375A-789E-14D6CBD4165D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemyattack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55D90BEB-0F2D-375A-789E-14D6CBD4165D}|Assembly-CSharp.csproj|C:\\Users\\user\\Documents\\GitHub\\CleanProject\\GameEngineProgramming\\assets\\scripts\\dogspawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{55D90BEB-0F2D-375A-789E-14D6CBD4165D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\dogspawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55D90BEB-0F2D-375A-789E-14D6CBD4165D}|Assembly-CSharp.csproj|c:\\users\\user\\documents\\github\\cleanproject\\gameengineprogramming\\assets\\scripts\\doghealth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55D90BEB-0F2D-375A-789E-14D6CBD4165D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\doghealth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{55D90BEB-0F2D-375A-789E-14D6CBD4165D}|Assembly-CSharp.csproj|C:\\Users\\user\\Documents\\GitHub\\CleanProject\\GameEngineProgramming\\assets\\scripts\\typingchallengemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -30,11 +38,37 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
+              "Title": "EnemyAttack.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\CleanProject\\GameEngineProgramming\\Assets\\Scripts\\EnemyAttack.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\EnemyAttack.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\GitHub\\CleanProject\\GameEngineProgramming\\Assets\\Scripts\\EnemyAttack.cs",
+              "RelativeToolTip": "Assets\\Scripts\\EnemyAttack.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-07T08:32:28.373Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DogHealth.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\CleanProject\\GameEngineProgramming\\Assets\\Scripts\\DogHealth.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\DogHealth.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\GitHub\\CleanProject\\GameEngineProgramming\\Assets\\Scripts\\DogHealth.cs",
+              "RelativeToolTip": "Assets\\Scripts\\DogHealth.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAwwBcAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-07T08:28:03.831Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "CoroutineTween.cs",
               "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\CleanProject\\GameEngineProgramming\\Library\\PackageCache\\com.unity.ugui@9496653a3df6\\Runtime\\UGUI\\UI\\Animation\\CoroutineTween.cs",
               "RelativeDocumentMoniker": "Library\\PackageCache\\com.unity.ugui@9496653a3df6\\Runtime\\UGUI\\UI\\Animation\\CoroutineTween.cs",
@@ -46,7 +80,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "ToggleGroup.cs",
               "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\CleanProject\\GameEngineProgramming\\Library\\PackageCache\\com.unity.ugui@9496653a3df6\\Runtime\\UGUI\\UI\\Core\\ToggleGroup.cs",
               "RelativeDocumentMoniker": "Library\\PackageCache\\com.unity.ugui@9496653a3df6\\Runtime\\UGUI\\UI\\Core\\ToggleGroup.cs",
@@ -58,7 +92,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "TestingPixelBattleText.cs",
               "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\CleanProject\\GameEngineProgramming\\Assets\\TestingPixelBattleText.cs",
               "RelativeDocumentMoniker": "Assets\\TestingPixelBattleText.cs",
@@ -70,7 +104,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "DogSpawner.cs",
               "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\CleanProject\\GameEngineProgramming\\Assets\\Scripts\\DogSpawner.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\DogSpawner.cs",
@@ -83,7 +117,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "TypingChallengeManager.cs",
               "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\CleanProject\\GameEngineProgramming\\Assets\\Scripts\\TypingChallengeManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\TypingChallengeManager.cs",
@@ -91,8 +125,7 @@
               "RelativeToolTip": "Assets\\Scripts\\TypingChallengeManager.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-04T08:12:06.151Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-04T08:12:06.151Z"
             }
           ]
         }
