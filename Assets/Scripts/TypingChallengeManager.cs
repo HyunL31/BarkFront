@@ -14,12 +14,21 @@ public class TypingChallengeManager : MonoBehaviour
 
     public List<DogChallenge> dogChallenges;
 
+    // ✅ 타이핑 성공 여부 저장
+    public bool lastBuffResult = false;
+
     void Awake()
     {
         if (Instance == null)
             Instance = this;
         else
             Destroy(gameObject);
+    }
+
+    // ✅ 강화 여부 설정
+    public void SetBuffResult(bool success)
+    {
+        lastBuffResult = success;
     }
 
     public string GetRandomChallenge(int dogIndex)
@@ -33,6 +42,6 @@ public class TypingChallengeManager : MonoBehaviour
                 return dog.challengeSentences[Random.Range(0, dog.challengeSentences.Count)];
             }
         }
-        return "Index Error";
+        return "강아지 인덱스 오류";
     }
 }

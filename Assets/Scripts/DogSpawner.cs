@@ -26,6 +26,7 @@ public class DogSpawner : MonoBehaviour
     private bool isSpawnReady = false;
     private string currentChallenge;
 
+    private GameObject buffEffectObject;
     void Start()
     {
         for (int i = 0; i < toggles.Length; i++)
@@ -57,6 +58,7 @@ public class DogSpawner : MonoBehaviour
                     isSpawnReady = false;
                 }
             });
+
         }
 
         challengeInput.onValueChanged.AddListener(UpdateTypingEffect); // 실시간 입력 반영
@@ -120,7 +122,9 @@ public class DogSpawner : MonoBehaviour
             if (timer <= 0f)
             {
                 isChallengeActive = false;
-                isSpawnReady = false;
+                isSpawnReady = true; // ✅ 시간 초과도 실패로 간주하고 소환 가능하게
+                TypingChallengeManager.Instance.SetBuffResult(false);
+
                 timerText.text = "Time Out!";
                 challengeText.text = "";
                 challengeInput.gameObject.SetActive(false);
@@ -151,8 +155,8 @@ public class DogSpawner : MonoBehaviour
         Vector3Int rightTilePos = new Vector3Int(groupX + 1, baseTilePos.y, baseTilePos.z);
 
         Vector2Int groupKey = new Vector2Int(groupX / 2, baseTilePos.y);
-        if (spawnedGroups.ContainsKey(groupKey))
-            return;
+        if (spawnedGroups.ContainsKey(groupKey)) return;
+        if (!(tilemap.HasTile(leftTilePos) && tilemap.HasTile(rightTilePos))) return;
 
         if (!(tilemap.HasTile(leftTilePos) && tilemap.HasTile(rightTilePos)))
             return;
@@ -163,6 +167,7 @@ public class DogSpawner : MonoBehaviour
         spawnPos.z = 0;
 
         GameObject dog = Instantiate(dogPrefabs[selectedIndex], spawnPos, Quaternion.identity);
+        dog.tag = "dog";
         spawnedGroups.Add(groupKey, dog);
 
         isSpawnReady = false;
@@ -180,7 +185,6 @@ public class DogSpawner : MonoBehaviour
     private void OnDrawGizmos()
     {
         if (tilemap == null) return;
-
         BoundsInt bounds = tilemap.cellBounds;
         for (int y = bounds.yMin; y <= bounds.yMax; y++)
         {
@@ -188,7 +192,6 @@ public class DogSpawner : MonoBehaviour
             {
                 Vector3Int leftTile = new Vector3Int(x, y, 0);
                 Vector3Int rightTile = new Vector3Int(x + 1, y, 0);
-
                 if (tilemap.HasTile(leftTile) && tilemap.HasTile(rightTile))
                 {
                     Vector3 leftCenter = tilemap.GetCellCenterWorld(leftTile);
