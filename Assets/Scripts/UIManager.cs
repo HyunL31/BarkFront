@@ -1,5 +1,7 @@
 ﻿using System.Collections;
+using TMPro;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class UIManager : MonoBehaviour
 {
@@ -7,6 +9,9 @@ public class UIManager : MonoBehaviour
 
     public ResourceUI resourceUI;
     public GameObject resourceUIPanel;
+
+    [Header("Oxygen UI")]
+    public Image oxygenFillImage;
 
     void Awake()
     {
@@ -18,6 +23,43 @@ public class UIManager : MonoBehaviour
         else
         {
             Destroy(gameObject);
+        }
+    }
+
+    private void Start()
+    {
+        oxygenFillImage.color = Color.green;
+    }
+
+    void OnEnable()
+    {
+        OxygenSystem.OnOxygenChanged += UpdateOxygenUI;
+    }
+
+    void OnDisable()
+    {
+        OxygenSystem.OnOxygenChanged -= UpdateOxygenUI;
+    }
+
+    private void UpdateOxygenUI(float percent)
+    {
+        if (oxygenFillImage != null)
+        {
+            oxygenFillImage.fillAmount = percent;
+
+            // 퍼센트에 따라 색상 설정
+            if (percent > 0.6f)
+            {
+                oxygenFillImage.color = Color.green;
+            }
+            else if (percent > 0.3f)
+            {
+                oxygenFillImage.color = Color.yellow;
+            }
+            else
+            {
+                oxygenFillImage.color = Color.red;
+            }
         }
     }
 
