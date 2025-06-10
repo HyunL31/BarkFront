@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\user\\Documents\\GitHub\\CleanProject\\GameEngineProgramming\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{55D90BEB-0F2D-375A-789E-14D6CBD4165D}|Assembly-CSharp.csproj|c:\\users\\user\\documents\\github\\cleanproject\\gameengineprogramming\\assets\\scripts\\oxygensystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55D90BEB-0F2D-375A-789E-14D6CBD4165D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\oxygensystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{55D90BEB-0F2D-375A-789E-14D6CBD4165D}|Assembly-CSharp.csproj|c:\\users\\user\\documents\\github\\cleanproject\\gameengineprogramming\\assets\\scripts\\playerdeath.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{55D90BEB-0F2D-375A-789E-14D6CBD4165D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playerdeath.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -15,7 +19,7 @@
       "RelativeMoniker": "D:0:0:{55D90BEB-0F2D-375A-789E-14D6CBD4165D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\coinuimanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{55D90BEB-0F2D-375A-789E-14D6CBD4165D}|Assembly-CSharp.csproj|c:\\users\\user\\documents\\github\\cleanproject\\gameengineprogramming\\assets\\scripts\\robotcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{55D90BEB-0F2D-375A-789E-14D6CBD4165D}|Assembly-CSharp.csproj|C:\\Users\\user\\Documents\\GitHub\\CleanProject\\GameEngineProgramming\\assets\\scripts\\robotcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{55D90BEB-0F2D-375A-789E-14D6CBD4165D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\robotcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -94,7 +98,7 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "TopDownCharacterController.cs",
               "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\CleanProject\\GameEngineProgramming\\Assets\\AssetStore\\Cainos\\Pixel Art Top Down - Basic\\Script\\TopDownCharacterController.cs",
               "RelativeDocumentMoniker": "Assets\\AssetStore\\Cainos\\Pixel Art Top Down - Basic\\Script\\TopDownCharacterController.cs",
@@ -106,7 +110,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "CutScenePlayer.cs",
               "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\CleanProject\\GameEngineProgramming\\Assets\\Scripts\\CutScenePlayer.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\CutScenePlayer.cs",
@@ -115,12 +119,11 @@
               "ViewState": "AgIAAEsAAAAAAAAAAAAAAFYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-08T07:22:26.671Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "ResourceManager.cs",
               "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\CleanProject\\GameEngineProgramming\\Assets\\Scripts\\ResourceManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\ResourceManager.cs",
@@ -129,12 +132,11 @@
               "ViewState": "AgIAAEMAAAAAAAAAAAAYwE8AAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-08T07:38:25.855Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "RobotController.cs",
               "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\CleanProject\\GameEngineProgramming\\Assets\\Scripts\\RobotController.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\RobotController.cs",
@@ -143,12 +145,11 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-10T09:27:28.232Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "CoinUIManager.cs",
               "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\CleanProject\\GameEngineProgramming\\Assets\\Scripts\\CoinUIManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\CoinUIManager.cs",
@@ -157,12 +158,11 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-08T20:56:21.599Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "DogSpawner.cs",
               "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\CleanProject\\GameEngineProgramming\\Assets\\Scripts\\DogSpawner.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\DogSpawner.cs",
@@ -171,25 +171,37 @@
               "ViewState": "AgIAAJAAAAAAAAAAAAASwJAAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-04T08:30:46.319Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "OxygenSystem.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\CleanProject\\GameEngineProgramming\\Assets\\Scripts\\OxygenSystem.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\OxygenSystem.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\GitHub\\CleanProject\\GameEngineProgramming\\Assets\\Scripts\\OxygenSystem.cs",
+              "RelativeToolTip": "Assets\\Scripts\\OxygenSystem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-10T14:21:39.015Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "PlayerDeath.cs",
               "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\CleanProject\\GameEngineProgramming\\Assets\\Scripts\\PlayerDeath.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerDeath.cs",
               "ToolTip": "C:\\Users\\user\\Documents\\GitHub\\CleanProject\\GameEngineProgramming\\Assets\\Scripts\\PlayerDeath.cs",
               "RelativeToolTip": "Assets\\Scripts\\PlayerDeath.cs",
-              "ViewState": "AgIAABsAAAAAAAAAAAA0wBgAAAAnAAAAAAAAAA==",
+              "ViewState": "AgIAABwAAAAAAAAAAAAQwBgAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-10T14:14:30.825Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "SpriteColorAnimation.cs",
               "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\CleanProject\\GameEngineProgramming\\Assets\\Scripts\\SpriteColorAnimation.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\SpriteColorAnimation.cs",
@@ -201,7 +213,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "RobotEvent.cs",
               "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\CleanProject\\GameEngineProgramming\\Assets\\Scripts\\RobotEvent.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\RobotEvent.cs",
@@ -213,7 +225,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "DayNightTimer.cs",
               "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\CleanProject\\GameEngineProgramming\\Assets\\Scripts\\DayNightTimer.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\DayNightTimer.cs",
@@ -225,7 +237,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "DogCostUI.cs",
               "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\CleanProject\\GameEngineProgramming\\Assets\\Scripts\\DogCostUI.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\DogCostUI.cs",
@@ -236,7 +248,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "TotalCoinUI.cs",
               "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\CleanProject\\GameEngineProgramming\\Assets\\Scripts\\TotalCoinUI.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\TotalCoinUI.cs",
@@ -247,7 +259,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 20,
               "Title": "NewPlayerMovement.cs",
               "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\CleanProject\\GameEngineProgramming\\Assets\\Scripts\\NewPlayerMovement.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\NewPlayerMovement.cs",
@@ -259,7 +271,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "EnemyAttack.cs",
               "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\CleanProject\\GameEngineProgramming\\Assets\\Scripts\\EnemyAttack.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\EnemyAttack.cs",
@@ -271,7 +283,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "DogHealth.cs",
               "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\CleanProject\\GameEngineProgramming\\Assets\\Scripts\\DogHealth.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\DogHealth.cs",
@@ -283,7 +295,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 18,
               "Title": "CoroutineTween.cs",
               "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\CleanProject\\GameEngineProgramming\\Library\\PackageCache\\com.unity.ugui@9496653a3df6\\Runtime\\UGUI\\UI\\Animation\\CoroutineTween.cs",
               "RelativeDocumentMoniker": "Library\\PackageCache\\com.unity.ugui@9496653a3df6\\Runtime\\UGUI\\UI\\Animation\\CoroutineTween.cs",
@@ -295,7 +307,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 19,
               "Title": "ToggleGroup.cs",
               "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\CleanProject\\GameEngineProgramming\\Library\\PackageCache\\com.unity.ugui@9496653a3df6\\Runtime\\UGUI\\UI\\Core\\ToggleGroup.cs",
               "RelativeDocumentMoniker": "Library\\PackageCache\\com.unity.ugui@9496653a3df6\\Runtime\\UGUI\\UI\\Core\\ToggleGroup.cs",
@@ -307,7 +319,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "TestingPixelBattleText.cs",
               "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\CleanProject\\GameEngineProgramming\\Assets\\TestingPixelBattleText.cs",
               "RelativeDocumentMoniker": "Assets\\TestingPixelBattleText.cs",
@@ -319,7 +331,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "CameraFollow.cs",
               "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\CleanProject\\GameEngineProgramming\\Assets\\Scripts\\CameraFollow.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\CameraFollow.cs",
@@ -331,7 +343,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 17,
               "Title": "TypingChallengeManager.cs",
               "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\CleanProject\\GameEngineProgramming\\Assets\\Scripts\\TypingChallengeManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\TypingChallengeManager.cs",
