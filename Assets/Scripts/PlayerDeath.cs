@@ -34,7 +34,7 @@ public class PlayerDeath : MonoBehaviour
         animator.SetTrigger(deathTrigger);
 
         // 3) 코인 차감
-        ResourceManager.Instance.AddCoin(-10);
+        
 
         // 4) 리스폰 코루틴
         StartCoroutine(RespawnCoroutine());
