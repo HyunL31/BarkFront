@@ -1440,6 +1440,7 @@ MonoBehaviour:
   toggleGroup: {fileID: 1482661980}
   progressBar: {fileID: 103253362}
   dogCosts: 0200000005000000080000000a000000
+  coinManager: {fileID: 1506497641}
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -4751,7 +4752,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -16, y: -1}
+  m_AnchoredPosition: {x: -21.3, y: -1}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1459079405
@@ -4873,7 +4874,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -178, y: 75}
+  m_AnchoredPosition: {x: -178.2, y: 75}
   m_SizeDelta: {x: 80, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1506497639
@@ -4988,6 +4989,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   coinText: {fileID: 1506497639}
+  currentCoins: 120
 --- !u!1 &1536306560
 GameObject:
   m_ObjectHideFlags: 0

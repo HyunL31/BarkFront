@@ -17,6 +17,8 @@ public class DogSpawner : MonoBehaviour
     public Image progressBar;
     public int[] dogCosts;
 
+    public CoinUIManager coinManager; // 💰 코인 매니저 참조 (인스펙터에서 할당)
+
     private int selectedIndex = -1;
     private Dictionary<Vector2Int, GameObject> spawnedGroups = new Dictionary<Vector2Int, GameObject>();
 
@@ -27,6 +29,7 @@ public class DogSpawner : MonoBehaviour
     private string currentChallenge;
 
     private GameObject buffEffectObject;
+
     void Start()
     {
         for (int i = 0; i < toggles.Length; i++)
@@ -58,10 +61,9 @@ public class DogSpawner : MonoBehaviour
                     isSpawnReady = false;
                 }
             });
-
         }
 
-        challengeInput.onValueChanged.AddListener(UpdateTypingEffect); // 실시간 입력 반영
+        challengeInput.onValueChanged.AddListener(UpdateTypingEffect);
         challengeInput.onEndEdit.AddListener(OnChallengeEndEdit);
         challengeInput.gameObject.SetActive(false);
     }
@@ -71,7 +73,7 @@ public class DogSpawner : MonoBehaviour
         timer = challengeTime;
         isChallengeActive = true;
         isSpawnReady = false;
-        UpdateTypingEffect(""); // 초기화
+        UpdateTypingEffect("");
     }
 
     void UpdateTypingEffect(string typed)
@@ -82,13 +84,12 @@ public class DogSpawner : MonoBehaviour
         {
             string rest = currentChallenge.Substring(typed.Length);
             challengeText.text = $"<b><color=#ffffff>{typed}</color></b><color=#888888>{rest}</color>";
-
             if (progressBar != null)
                 progressBar.fillAmount = (float)typed.Length / currentChallenge.Length;
         }
         else
         {
-            challengeText.text = $"<color=#ff0000>{typed}</color>"; // 틀릴 경우 붉게
+            challengeText.text = $"<color=#ff0000>{typed}</color>";
             if (progressBar != null)
                 progressBar.fillAmount = 0f;
         }
@@ -108,7 +109,7 @@ public class DogSpawner : MonoBehaviour
         }
         else
         {
-            challengeInput.text = ""; // 다시 시도
+            challengeInput.text = "";
         }
     }
 
@@ -122,9 +123,8 @@ public class DogSpawner : MonoBehaviour
             if (timer <= 0f)
             {
                 isChallengeActive = false;
-                isSpawnReady = true; // ✅ 시간 초과도 실패로 간주하고 소환 가능하게
+                isSpawnReady = true;
                 TypingChallengeManager.Instance.SetBuffResult(false);
-
                 timerText.text = "Time Out!";
                 challengeText.text = "";
                 challengeInput.gameObject.SetActive(false);
@@ -140,11 +140,14 @@ public class DogSpawner : MonoBehaviour
 
     void SpawnDogWithImprovedLogic()
     {
-        if(!ResourceManager.Instance.SpendCoin(dogCosts[selectedIndex]))
+        // 💰 소환 비용 체크
+        int cost = dogCosts[selectedIndex];
+        if (coinManager.currentCoins < cost)
         {
-            Debug.Log("코인이 부족해서 강아지를 소환할 수 없습니다");
+            Debug.Log("코인이 부족합니다!");
             return;
         }
+
         Vector3 mouseScreenPos = Input.mousePosition;
         mouseScreenPos.z = Mathf.Abs(Camera.main.transform.position.z - tilemap.transform.position.z);
         Vector3 worldPos = Camera.main.ScreenToWorldPoint(mouseScreenPos);
@@ -158,13 +161,13 @@ public class DogSpawner : MonoBehaviour
         if (spawnedGroups.ContainsKey(groupKey)) return;
         if (!(tilemap.HasTile(leftTilePos) && tilemap.HasTile(rightTilePos))) return;
 
-        if (!(tilemap.HasTile(leftTilePos) && tilemap.HasTile(rightTilePos)))
-            return;
-
         Vector3 leftCenter = tilemap.GetCellCenterWorld(leftTilePos);
         Vector3 rightCenter = tilemap.GetCellCenterWorld(rightTilePos);
         Vector3 spawnPos = (leftCenter + rightCenter) / 2f;
         spawnPos.z = 0;
+
+        // 💰 코인 차감
+        coinManager.SpendCoins(cost);
 
         GameObject dog = Instantiate(dogPrefabs[selectedIndex], spawnPos, Quaternion.identity);
         dog.tag = "dog";

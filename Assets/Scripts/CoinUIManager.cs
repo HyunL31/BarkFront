@@ -1,25 +1,25 @@
 using UnityEngine;
 using TMPro;
+
 public class CoinUIManager : MonoBehaviour
 {
     public TMP_Text coinText;
+    public int currentCoins = 120; 
+
     void Start()
     {
-        UpdateCoinUI(ResourceManager.Instance.GetCoins());
-        ResourceManager.Instance.OnCoinChanged += UpdateCoinUI;
+        UpdateCoinUI();
     }
 
-    void OnDestroy()
+    public void SpendCoins(int amount)
     {
-        if (ResourceManager.Instance != null)
-        {
-            ResourceManager.Instance.OnCoinChanged -= UpdateCoinUI;
-        }
+        currentCoins -= amount;
+        if (currentCoins < 0) currentCoins = 0;
+        UpdateCoinUI();
     }
 
-    void UpdateCoinUI(int amount)
+    void UpdateCoinUI()
     {
-        coinText.text = $"{amount}";
+        coinText.text = $"{currentCoins}";
     }
-
 }
