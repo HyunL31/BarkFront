@@ -14,6 +14,8 @@ public class PlayerDeath : MonoBehaviour
     [Tooltip("사망 시 차감될 코인")]
     public int deathCoinPenalty = -10;
 
+    public AudioSource dogMoan;
+
     Animator animator;
     MonoBehaviour movementScript;
     OxygenSystem oxySystem;
@@ -32,6 +34,7 @@ public class PlayerDeath : MonoBehaviour
 
         // 2) 죽음 애니메이션
         animator.SetTrigger(deathTrigger);
+        dogMoan.Play();
 
         // 3) 코인 차감
         ResourceManager.Instance.AddCoin(deathCoinPenalty);
@@ -46,7 +49,9 @@ public class PlayerDeath : MonoBehaviour
 
         // 5) 위치 이동
         if (respawnPoint != null)
+        {
             transform.position = respawnPoint.position;
+        }
 
         // 6) 산소 시스템 리셋
         if (oxySystem != null)
@@ -59,6 +64,6 @@ public class PlayerDeath : MonoBehaviour
         movementScript.enabled = true;
 
         animator.ResetTrigger(deathTrigger);
-        animator.Play("Stand"); // Stand 상태 이름으로 바꿔주세요
+        animator.Play("Stand");
     }
 }

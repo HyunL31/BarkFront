@@ -32,6 +32,9 @@ public class AvoidCCTV : MonoBehaviour
 
     public static AvoidCCTV Instance;
 
+    public AudioSource fail;
+    public AudioSource success;
+
     public bool IsPlayingCCTVGame { get; private set; } = false;
 
     private void Awake()
@@ -204,6 +207,7 @@ public class AvoidCCTV : MonoBehaviour
         if (failPanel != null)
         {
             failPanel.SetActive(true);
+            fail.Play();
         }
 
         EndGame();
@@ -221,6 +225,7 @@ public class AvoidCCTV : MonoBehaviour
         if (successPanel != null)
         {
             successPanel.SetActive(true);
+            success.Play();
         }
 
         EndGame();

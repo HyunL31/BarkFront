@@ -6,7 +6,7 @@ public class OxygenSystem : MonoBehaviour
 {
     [Header("Oxygen Settings")]
     public float maxOxygen = 100f;
-    public float depletionRate = 5f;
+    public float depletionRate = 1f;
     public float regenRate = 20f;
 
     private float currentOxygen;

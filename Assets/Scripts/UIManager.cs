@@ -10,6 +10,8 @@ public class UIManager : MonoBehaviour
     public ResourceUI resourceUI;
     public GameObject resourceUIPanel;
 
+    public AudioSource achieveSound;
+
     [Header("Oxygen UI")]
     public Image oxygenFillImage;
 
@@ -77,6 +79,7 @@ public class UIManager : MonoBehaviour
 
         resourceUI.DisplayResource();
         resourceUIPanel.SetActive(true);
+        achieveSound.Play();
 
         StartCoroutine(HideResourceUI());
     }

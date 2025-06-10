@@ -9,6 +9,7 @@ using UnityEngine.UI;
 public class ButtonController : MonoBehaviour
 {
     public CanvasGroup startButton;
+    public AudioSource buttonAudio;
 
     void Start()
     {
@@ -24,6 +25,11 @@ public class ButtonController : MonoBehaviour
     public void OpeningStart(GameObject cutscene)
     {
         cutscene.SetActive(true);
+    }
+
+    public void audioPlay()
+    {
+        buttonAudio.Play();
     }
 
     // ¹öÆ° Á¡¸ê

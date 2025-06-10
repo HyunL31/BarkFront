@@ -125,7 +125,7 @@ public class ResourceManager : MonoBehaviour
         //    SetCurrentLoot(ResourceType.Snack, SnackType.Toy);
         //}
         
-        if (rand < 30)
+        if (rand < 20)
         {
             AddOxygen(10);
             SetCurrentLoot(ResourceType.Oxygen, 10);

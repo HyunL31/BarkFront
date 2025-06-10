@@ -6,6 +6,8 @@ public class TimingBar : MonoBehaviour
     public RectTransform barArea;
     public RectTransform targetZone;
 
+    public AudioSource success;
+
     public float speed = 200f;
     private bool goingRight = true;
 
@@ -78,6 +80,8 @@ public class TimingBar : MonoBehaviour
     // Width of TargetZone
     void ShrinkTargetZone()
     {
+        success.Play();
+
         float newWidth = targetZone.rect.width * targetShrinkFactor;
         targetZone.SetSizeWithCurrentAnchors(RectTransform.Axis.Horizontal, newWidth);
     }
