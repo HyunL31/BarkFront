@@ -2,10 +2,6 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-/// <summary>
-/// 플레이어 애니메이션 스크립트
-/// </summary>
-
 public class Player : MonoBehaviour
 {
     public float speed;
@@ -17,7 +13,11 @@ public class Player : MonoBehaviour
     private bool isSniffing = false;
     private LootChest targetChest;
 
+    [Header("UI & Interactions")]
     public GameObject interactPromptText;
+
+    [Header("Oxygen Tank")]
+    [SerializeField] private SpriteRenderer tankSr;
 
     private void Start()
     {
@@ -31,26 +31,26 @@ public class Player : MonoBehaviour
         }
     }
 
-    // 플레이어 이동
     private void Update()
     {
-        // 냄새 맡는 중엔 이동 X
-        if (isSniffing)
-        {
-            return;
-        }
+        if (isSniffing) return;
 
         Vector2 dir = Vector2.zero;
 
         if (Input.GetKey(KeyCode.A))
         {
             dir.x = -1;
-            sr.flipX = true;
         }
         else if (Input.GetKey(KeyCode.D))
         {
             dir.x = 1;
-            sr.flipX = false;
+        }
+
+        if (dir.x != 0)
+        {
+            Vector3 s = transform.localScale;
+            s.x = Mathf.Sign(dir.x);
+            transform.localScale = s;
         }
 
         if (Input.GetKey(KeyCode.W))
@@ -67,7 +67,6 @@ public class Player : MonoBehaviour
 
         animator.SetBool("IsMoving", dir.magnitude > 0);
 
-        // E키 입력으로 냄새 맡는 애니메이션 시작
         if (Input.GetKeyDown(KeyCode.E) && targetChest != null && dir == Vector2.zero)
         {
             if (AvoidCCTV.Instance != null && AvoidCCTV.Instance.IsPlayingCCTVGame)
@@ -82,7 +81,6 @@ public class Player : MonoBehaviour
         }
     }
 
-    // Sniff 애니메이션 이벤트 (마지막 프레임에서 호출)
     public void OnSniffEnd()
     {
         isSniffing = false;
