@@ -8642,7 +8642,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 25952b37a9aa61d4da4fac5a41439596, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dayDuration: 300
+  dayDuration: 10
   nightDuration: 300
   currentDay: 1
   timerImage: {fileID: 1243012145}

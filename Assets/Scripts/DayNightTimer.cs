@@ -76,6 +76,7 @@ public class DayNightTimer : MonoBehaviour
         else
         {
             string stageName= "Stage" + currentDay;
+            
             SceneManager.LoadScene(stageName);
         }
 
