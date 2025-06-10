@@ -1,4 +1,8 @@
+<<<<<<< HEAD
+﻿[Ll]ibrary/
+=======
 [Ll]ibrary/
+>>>>>>> Juhyun
 [Tt]emp/
 [Bb]uild/
 [Bb]uilds/
@@ -38,5 +42,9 @@ sysinfo.txt
 *.unitypackage
 
 # Ignore sensitive data
+<<<<<<< HEAD
 UserSettings/
+=======
+UserSettings/
+>>>>>>> Juhyun
 .vs/
