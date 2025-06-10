@@ -6,7 +6,7 @@ public class OxygenSystem : MonoBehaviour
 {
     [Header("Oxygen Settings")]
     public float maxOxygen = 100f;
-    public float depletionRate = 5f;
+    public float depletionRate = 1f;
     public float regenRate = 20f;
 
     private float currentOxygen;
@@ -60,12 +60,16 @@ public class OxygenSystem : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D other)
     {
         if (other.CompareTag("OxygenZone"))
+        {
             isInZone = true;
+        }
     }
 
     private void OnTriggerExit2D(Collider2D other)
     {
         if (other.CompareTag("OxygenZone"))
+        {
             isInZone = false;
+        }
     }
 }

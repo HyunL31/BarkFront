@@ -9,7 +9,7 @@ using UnityEngine.SceneManagement;
 
 public class DayNightTimer : MonoBehaviour
 {
-    public float dayDuration = 600f;
+    public float dayDuration = 100f;
     public float nightDuration = 600f;
 
     private float timer = 0f;

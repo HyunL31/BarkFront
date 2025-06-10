@@ -5,6 +5,7 @@ public class BoxGameManager : MonoBehaviour
 {
     public static BoxGameManager Instance;
     public TimingBar timingBar;
+    public AudioSource fail;
 
     private Action onSuccessCallback;
 
@@ -47,6 +48,7 @@ public class BoxGameManager : MonoBehaviour
 
     public void OnTimingFail()
     { 
+        fail.Play();
         gameObject.SetActive(false);
     }
 

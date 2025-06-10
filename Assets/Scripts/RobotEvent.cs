@@ -64,7 +64,6 @@ public class RobotEvent : MonoBehaviour
         }
     }
 
-    // 
     public void ResetEvents()
     {
         StopAllCoroutines();

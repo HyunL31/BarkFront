@@ -12,7 +12,9 @@ public class PlayerDeath : MonoBehaviour
     [Tooltip("리스폰까지 대기 시간")]
     public float respawnDelay = 1.0f;
     [Tooltip("사망 시 차감될 코인")]
-    public int deathCoinPenalty = 50;
+    public int deathCoinPenalty = -10;
+
+    public AudioSource dogMoan;
 
     Animator animator;
     MonoBehaviour movementScript;
@@ -32,9 +34,10 @@ public class PlayerDeath : MonoBehaviour
 
         // 2) 죽음 애니메이션
         animator.SetTrigger(deathTrigger);
+        dogMoan.Play();
 
         // 3) 코인 차감
-        ResourceManager.Instance.AddCoin(-10);
+        ResourceManager.Instance.AddCoin(deathCoinPenalty);
 
         // 4) 리스폰 코루틴
         StartCoroutine(RespawnCoroutine());
@@ -46,7 +49,9 @@ public class PlayerDeath : MonoBehaviour
 
         // 5) 위치 이동
         if (respawnPoint != null)
+        {
             transform.position = respawnPoint.position;
+        }
 
         // 6) 산소 시스템 리셋
         if (oxySystem != null)
@@ -59,6 +64,6 @@ public class PlayerDeath : MonoBehaviour
         movementScript.enabled = true;
 
         animator.ResetTrigger(deathTrigger);
-        animator.Play("Stand"); // Stand 상태 이름으로 바꿔주세요
+        animator.Play("Stand");
     }
 }
