@@ -102,6 +102,7 @@ public class AvoidCCTV : MonoBehaviour
         {
             Vector2 screenPos = Camera.main.WorldToScreenPoint(playerTransform.position);
             StartCoroutine(CaptureAndShowSnapshot(screenPos));
+            StartCoroutine(HandleFailure(screenPos));
             EndGame();
         }
     }

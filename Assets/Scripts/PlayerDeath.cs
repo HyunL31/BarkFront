@@ -12,7 +12,7 @@ public class PlayerDeath : MonoBehaviour
     [Tooltip("리스폰까지 대기 시간")]
     public float respawnDelay = 1.0f;
     [Tooltip("사망 시 차감될 코인")]
-    public int deathCoinPenalty = 50;
+    public int deathCoinPenalty = -10;
 
     Animator animator;
     MonoBehaviour movementScript;
@@ -34,7 +34,7 @@ public class PlayerDeath : MonoBehaviour
         animator.SetTrigger(deathTrigger);
 
         // 3) 코인 차감
-        
+        ResourceManager.Instance.AddCoin(deathCoinPenalty);
 
         // 4) 리스폰 코루틴
         StartCoroutine(RespawnCoroutine());
