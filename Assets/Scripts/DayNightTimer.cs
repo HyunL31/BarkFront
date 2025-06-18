@@ -75,7 +75,9 @@ public class DayNightTimer : MonoBehaviour
         }
         else
         {
-            SceneManager.LoadScene("Night");
+            string stageName= "Stage" + currentDay;
+            
+            SceneManager.LoadScene(stageName);
         }
 
         UpdateUI();
@@ -83,8 +85,12 @@ public class DayNightTimer : MonoBehaviour
 
     void OnSceneLoaded(Scene scene, LoadSceneMode mode)
     {
+        timerImage = null;
+        dayNightText = null;
+        eventManager = null;
         timerImage = GameObject.FindAnyObjectByType<Image>();
-        dayNightText = GameObject.FindAnyObjectByType<TMP_Text>();
+        dayNightText = GameObject.Find("DayNightText")?.GetComponent<TMP_Text>();
+
         eventManager = GameObject.FindAnyObjectByType<RobotEvent>();
         UpdateUI();
     }

@@ -3,19 +3,20 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 3
-  tags: []
+  tags:
+  - Dog
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Robot
   - Water
   - UI
   - 
   - 
-  - Layer 1
-  - Layer 2
-  - Layer 3
+  - 
+  - 
+  - 
   - 
   - 
   - 
@@ -40,18 +41,6 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
-    locked: 0
-  - name: Layer 1
-    uniqueID: 1295635549
-    locked: 0
-  - name: Layer 2
-    uniqueID: 2664947897
-    locked: 0
-  - name: Layer 3
-    uniqueID: 3713904329
-    locked: 0
-  - name: Sprite
-    uniqueID: 3048917483
     locked: 0
   m_RenderingLayers:
   - Default

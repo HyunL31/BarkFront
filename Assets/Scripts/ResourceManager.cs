@@ -24,6 +24,7 @@ public class ResourceManager : MonoBehaviour
 
     //public Dictionary<SnackType, int> snackInventory = new();
     public List<DogCharacter> dogCharacters = new();
+    public event System.Action<int> OnCoinChanged;
 
     private void Awake()
     {
@@ -58,6 +59,7 @@ public class ResourceManager : MonoBehaviour
     {
         totalCoins += amount;
         totalCoins = Mathf.Max(0, totalCoins);  // 0 미만 방지
+        OnCoinChanged?.Invoke(totalCoins);
     }
 
     //public void AddSnack(SnackType snack, int amount = 1)
@@ -71,7 +73,22 @@ public class ResourceManager : MonoBehaviour
     //        snackInventory[snack] = amount;
     //    }
     //}
+    public bool SpendCoin(int amount)
+    {
+        if(totalCoins>=amount)
+        {
+            totalCoins -= amount;
+            OnCoinChanged?.Invoke(totalCoins);
+            return true;
 
+        }
+        return false;
+
+    }
+    public int GetCoins()
+    {
+        return totalCoins;
+    }
     public void AddOxygen(int amount)
     {
         oxygenPercent += amount;

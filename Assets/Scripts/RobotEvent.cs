@@ -67,7 +67,11 @@ public class RobotEvent : MonoBehaviour
     public void ResetEvents()
     {
         StopAllCoroutines();
-        eventPanel.SetActive(false);
+        if (eventPanel != null)
+        {
+            eventPanel.SetActive(false);
+        }
+
         cctvPanel.SetActive(false);
         canvasGroup.alpha = 0f;
 
