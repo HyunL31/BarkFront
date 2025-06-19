@@ -1,0 +1,62 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 3
+  tags:
+  - Dog
+  - robot
+  - FxTemporaire
+  - dog
+  - OxygenZone
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - Robot
+  - Water
+  - UI
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Layer1
+    uniqueID: 1861250503
+    locked: 0
+  - name: Layer2
+    uniqueID: 2441185101
+    locked: 0
+  - name: Layer3
+    uniqueID: 1411559377
+    locked: 0
+  - name: Sprite
+    uniqueID: 3112638287
+    locked: 0
+  m_RenderingLayers:
+  - Default

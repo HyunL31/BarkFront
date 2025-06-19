@@ -1,0 +1,436 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Juhyun\\Desktop\\GameEngineProgramming-Night\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{009BAE8D-2B2A-9EE8-BD1C-038E56901878}|Assembly-CSharp.csproj|C:\\Users\\Juhyun\\Desktop\\GameEngineProgramming-Night\\assets\\scripts\\daynighttimer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{009BAE8D-2B2A-9EE8-BD1C-038E56901878}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\daynighttimer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{009BAE8D-2B2A-9EE8-BD1C-038E56901878}|Assembly-CSharp.csproj|c:\\users\\juhyun\\desktop\\gameengineprogramming-night\\assets\\scripts\\robotcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{009BAE8D-2B2A-9EE8-BD1C-038E56901878}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\robotcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{009BAE8D-2B2A-9EE8-BD1C-038E56901878}|Assembly-CSharp.csproj|C:\\Users\\Juhyun\\Desktop\\GameEngineProgramming-Night\\assets\\scripts\\daycountmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{009BAE8D-2B2A-9EE8-BD1C-038E56901878}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\daycountmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{69981709-08BF-1E23-20FE-AC7CA8D8838B}|BattleText.csproj|C:\\Users\\Juhyun\\Desktop\\GameEngineProgramming-Night\\assets\\assetstore\\pixelbattletext\\scripts\\pixelbattletextcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{69981709-08BF-1E23-20FE-AC7CA8D8838B}|BattleText.csproj|solutionrelative:assets\\assetstore\\pixelbattletext\\scripts\\pixelbattletextcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{009BAE8D-2B2A-9EE8-BD1C-038E56901878}|Assembly-CSharp.csproj|C:\\Users\\Juhyun\\Desktop\\GameEngineProgramming-Night\\assets\\scripts\\robotevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{009BAE8D-2B2A-9EE8-BD1C-038E56901878}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\robotevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{009BAE8D-2B2A-9EE8-BD1C-038E56901878}|Assembly-CSharp.csproj|C:\\Users\\Juhyun\\Desktop\\GameEngineProgramming-Night\\assets\\scripts\\dogspawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{009BAE8D-2B2A-9EE8-BD1C-038E56901878}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\dogspawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{009BAE8D-2B2A-9EE8-BD1C-038E56901878}|Assembly-CSharp.csproj|C:\\Users\\Juhyun\\Desktop\\GameEngineProgramming-Night\\assets\\scripts\\enemyattack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{009BAE8D-2B2A-9EE8-BD1C-038E56901878}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemyattack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{009BAE8D-2B2A-9EE8-BD1C-038E56901878}|Assembly-CSharp.csproj|C:\\Users\\Juhyun\\Desktop\\GameEngineProgramming-Night\\assets\\scripts\\areadamagedealer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{009BAE8D-2B2A-9EE8-BD1C-038E56901878}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\areadamagedealer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{009BAE8D-2B2A-9EE8-BD1C-038E56901878}|Assembly-CSharp.csproj|c:\\users\\juhyun\\desktop\\gameengineprogramming-night\\assets\\scripts\\dogcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{009BAE8D-2B2A-9EE8-BD1C-038E56901878}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\dogcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{009BAE8D-2B2A-9EE8-BD1C-038E56901878}|Assembly-CSharp.csproj|c:\\users\\juhyun\\desktop\\gameengineprogramming-night\\assets\\scripts\\typingchallengemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{009BAE8D-2B2A-9EE8-BD1C-038E56901878}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\typingchallengemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{009BAE8D-2B2A-9EE8-BD1C-038E56901878}|Assembly-CSharp.csproj|c:\\users\\juhyun\\desktop\\gameengineprogramming-night\\assets\\scripts\\dogautoinvincibility.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{009BAE8D-2B2A-9EE8-BD1C-038E56901878}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\dogautoinvincibility.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{009BAE8D-2B2A-9EE8-BD1C-038E56901878}|Assembly-CSharp.csproj|c:\\users\\juhyun\\desktop\\gameengineprogramming-night\\assets\\scripts\\smallareadamage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{009BAE8D-2B2A-9EE8-BD1C-038E56901878}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\smallareadamage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{009BAE8D-2B2A-9EE8-BD1C-038E56901878}|Assembly-CSharp.csproj|C:\\Users\\Juhyun\\Desktop\\GameEngineProgramming-Night\\assets\\scripts\\cutsceneplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{009BAE8D-2B2A-9EE8-BD1C-038E56901878}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\cutsceneplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{009BAE8D-2B2A-9EE8-BD1C-038E56901878}|Assembly-CSharp.csproj|C:\\Users\\Juhyun\\Desktop\\GameEngineProgramming-Night\\assets\\scripts\\resourcemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{009BAE8D-2B2A-9EE8-BD1C-038E56901878}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\resourcemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{009BAE8D-2B2A-9EE8-BD1C-038E56901878}|Assembly-CSharp.csproj|C:\\Users\\Juhyun\\Desktop\\GameEngineProgramming-Night\\assets\\scripts\\buttoncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{009BAE8D-2B2A-9EE8-BD1C-038E56901878}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\buttoncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{009BAE8D-2B2A-9EE8-BD1C-038E56901878}|Assembly-CSharp.csproj|C:\\Users\\Juhyun\\Desktop\\GameEngineProgramming-Night\\assets\\scripts\\uimanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{009BAE8D-2B2A-9EE8-BD1C-038E56901878}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\uimanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{009BAE8D-2B2A-9EE8-BD1C-038E56901878}|Assembly-CSharp.csproj|C:\\Users\\Juhyun\\Desktop\\GameEngineProgramming-Night\\assets\\scripts\\resourceui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{009BAE8D-2B2A-9EE8-BD1C-038E56901878}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\resourceui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{009BAE8D-2B2A-9EE8-BD1C-038E56901878}|Assembly-CSharp.csproj|C:\\Users\\Juhyun\\Desktop\\GameEngineProgramming-Night\\assets\\scripts\\lootresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{009BAE8D-2B2A-9EE8-BD1C-038E56901878}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\lootresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{009BAE8D-2B2A-9EE8-BD1C-038E56901878}|Assembly-CSharp.csproj|C:\\Users\\Juhyun\\Desktop\\GameEngineProgramming-Night\\assets\\scripts\\coinuimanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{009BAE8D-2B2A-9EE8-BD1C-038E56901878}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\coinuimanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{009BAE8D-2B2A-9EE8-BD1C-038E56901878}|Assembly-CSharp.csproj|C:\\Users\\Juhyun\\Desktop\\GameEngineProgramming-Night\\assets\\scripts\\avoidcctv.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{009BAE8D-2B2A-9EE8-BD1C-038E56901878}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\avoidcctv.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{009BAE8D-2B2A-9EE8-BD1C-038E56901878}|Assembly-CSharp.csproj|C:\\Users\\Juhyun\\Desktop\\GameEngineProgramming-Night\\assets\\scripts\\hud.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{009BAE8D-2B2A-9EE8-BD1C-038E56901878}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\hud.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{009BAE8D-2B2A-9EE8-BD1C-038E56901878}|Assembly-CSharp.csproj|C:\\Users\\Juhyun\\Desktop\\GameEngineProgramming-Night\\assets\\scripts\\boxgamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{009BAE8D-2B2A-9EE8-BD1C-038E56901878}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\boxgamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{009BAE8D-2B2A-9EE8-BD1C-038E56901878}|Assembly-CSharp.csproj|C:\\Users\\Juhyun\\Desktop\\GameEngineProgramming-Night\\assets\\scripts\\timingbar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{009BAE8D-2B2A-9EE8-BD1C-038E56901878}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\timingbar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{009BAE8D-2B2A-9EE8-BD1C-038E56901878}|Assembly-CSharp.csproj|C:\\Users\\Juhyun\\Desktop\\GameEngineProgramming-Night\\assets\\scripts\\lootchest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{009BAE8D-2B2A-9EE8-BD1C-038E56901878}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\lootchest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Juhyun\\Desktop\\GameEngineProgramming-Night\\assets\\testingpixelbattletext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:assets\\testingpixelbattletext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 17,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "SmallAreaDamage.cs",
+              "DocumentMoniker": "C:\\Users\\Juhyun\\Desktop\\GameEngineProgramming-Night\\Assets\\Scripts\\SmallAreaDamage.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\SmallAreaDamage.cs",
+              "ToolTip": "C:\\Users\\Juhyun\\Desktop\\GameEngineProgramming-Night\\Assets\\Scripts\\SmallAreaDamage.cs",
+              "RelativeToolTip": "Assets\\Scripts\\SmallAreaDamage.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEIAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-19T12:02:33.948Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "DogAutoInvincibility.cs",
+              "DocumentMoniker": "C:\\Users\\Juhyun\\Desktop\\GameEngineProgramming-Night\\Assets\\Scripts\\DogAutoInvincibility.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\DogAutoInvincibility.cs",
+              "ToolTip": "C:\\Users\\Juhyun\\Desktop\\GameEngineProgramming-Night\\Assets\\Scripts\\DogAutoInvincibility.cs",
+              "RelativeToolTip": "Assets\\Scripts\\DogAutoInvincibility.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAAwCAAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-19T12:01:49.977Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "TypingChallengeManager.cs",
+              "DocumentMoniker": "C:\\Users\\Juhyun\\Desktop\\GameEngineProgramming-Night\\Assets\\Scripts\\TypingChallengeManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\TypingChallengeManager.cs",
+              "ToolTip": "C:\\Users\\Juhyun\\Desktop\\GameEngineProgramming-Night\\Assets\\Scripts\\TypingChallengeManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\TypingChallengeManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-19T11:49:17.007Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "DogController.cs",
+              "DocumentMoniker": "C:\\Users\\Juhyun\\Desktop\\GameEngineProgramming-Night\\Assets\\Scripts\\DogController.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\DogController.cs",
+              "ToolTip": "C:\\Users\\Juhyun\\Desktop\\GameEngineProgramming-Night\\Assets\\Scripts\\DogController.cs",
+              "RelativeToolTip": "Assets\\Scripts\\DogController.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAADwvyEAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-19T11:43:10.658Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DayCountManager.cs",
+              "DocumentMoniker": "C:\\Users\\Juhyun\\Desktop\\GameEngineProgramming-Night\\Assets\\Scripts\\DayCountManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\DayCountManager.cs",
+              "ToolTip": "C:\\Users\\Juhyun\\Desktop\\GameEngineProgramming-Night\\Assets\\Scripts\\DayCountManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\DayCountManager.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAzwB8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-19T09:47:12.027Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ResourceUI.cs",
+              "DocumentMoniker": "C:\\Users\\Juhyun\\Desktop\\GameEngineProgramming-Night\\Assets\\Scripts\\ResourceUI.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\ResourceUI.cs",
+              "ToolTip": "C:\\Users\\Juhyun\\Desktop\\GameEngineProgramming-Night\\Assets\\Scripts\\ResourceUI.cs",
+              "RelativeToolTip": "Assets\\Scripts\\ResourceUI.cs",
+              "ViewState": "AgIAADkAAAAAAAAAAAAIwB0AAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-19T08:48:04.726Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AreaDamageDealer.cs",
+              "DocumentMoniker": "C:\\Users\\Juhyun\\Desktop\\GameEngineProgramming-Night\\Assets\\Scripts\\AreaDamageDealer.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\AreaDamageDealer.cs",
+              "ToolTip": "C:\\Users\\Juhyun\\Desktop\\GameEngineProgramming-Night\\Assets\\Scripts\\AreaDamageDealer.cs",
+              "RelativeToolTip": "Assets\\Scripts\\AreaDamageDealer.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAAACUAAABhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-19T08:17:54.71Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "EnemyAttack.cs",
+              "DocumentMoniker": "C:\\Users\\Juhyun\\Desktop\\GameEngineProgramming-Night\\Assets\\Scripts\\EnemyAttack.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\EnemyAttack.cs",
+              "ToolTip": "C:\\Users\\Juhyun\\Desktop\\GameEngineProgramming-Night\\Assets\\Scripts\\EnemyAttack.cs",
+              "RelativeToolTip": "Assets\\Scripts\\EnemyAttack.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-19T07:58:25.559Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "RobotController.cs",
+              "DocumentMoniker": "C:\\Users\\Juhyun\\Desktop\\GameEngineProgramming-Night\\Assets\\Scripts\\RobotController.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\RobotController.cs",
+              "ToolTip": "C:\\Users\\Juhyun\\Desktop\\GameEngineProgramming-Night\\Assets\\Scripts\\RobotController.cs",
+              "RelativeToolTip": "Assets\\Scripts\\RobotController.cs",
+              "ViewState": "AgIAAIwAAAAAAAAAAAA5wKMAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-19T07:54:38.166Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "UIManager.cs",
+              "DocumentMoniker": "C:\\Users\\Juhyun\\Desktop\\GameEngineProgramming-Night\\Assets\\Scripts\\UIManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\UIManager.cs",
+              "ToolTip": "C:\\Users\\Juhyun\\Desktop\\GameEngineProgramming-Night\\Assets\\Scripts\\UIManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\UIManager.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAuwAgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-19T07:50:54.688Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ButtonController.cs",
+              "DocumentMoniker": "C:\\Users\\Juhyun\\Desktop\\GameEngineProgramming-Night\\Assets\\Scripts\\ButtonController.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\ButtonController.cs",
+              "ToolTip": "C:\\Users\\Juhyun\\Desktop\\GameEngineProgramming-Night\\Assets\\Scripts\\ButtonController.cs",
+              "RelativeToolTip": "Assets\\Scripts\\ButtonController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-19T07:47:41.305Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "HUD.cs",
+              "DocumentMoniker": "C:\\Users\\Juhyun\\Desktop\\GameEngineProgramming-Night\\Assets\\Scripts\\HUD.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\HUD.cs",
+              "ToolTip": "C:\\Users\\Juhyun\\Desktop\\GameEngineProgramming-Night\\Assets\\Scripts\\HUD.cs",
+              "RelativeToolTip": "Assets\\Scripts\\HUD.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAADwvxgAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-19T07:46:32.029Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "TestingPixelBattleText.cs",
+              "DocumentMoniker": "C:\\Users\\Juhyun\\Desktop\\GameEngineProgramming-Night\\Assets\\TestingPixelBattleText.cs",
+              "RelativeDocumentMoniker": "Assets\\TestingPixelBattleText.cs",
+              "ToolTip": "C:\\Users\\Juhyun\\Desktop\\GameEngineProgramming-Night\\Assets\\TestingPixelBattleText.cs",
+              "RelativeToolTip": "Assets\\TestingPixelBattleText.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-19T07:32:09.603Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PixelBattleTextController.cs",
+              "DocumentMoniker": "C:\\Users\\Juhyun\\Desktop\\GameEngineProgramming-Night\\Assets\\AssetStore\\PixelBattleText\\Scripts\\PixelBattleTextController.cs",
+              "RelativeDocumentMoniker": "Assets\\AssetStore\\PixelBattleText\\Scripts\\PixelBattleTextController.cs",
+              "ToolTip": "C:\\Users\\Juhyun\\Desktop\\GameEngineProgramming-Night\\Assets\\AssetStore\\PixelBattleText\\Scripts\\PixelBattleTextController.cs",
+              "RelativeToolTip": "Assets\\AssetStore\\PixelBattleText\\Scripts\\PixelBattleTextController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-19T07:26:44.101Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "CutScenePlayer.cs",
+              "DocumentMoniker": "C:\\Users\\Juhyun\\Desktop\\GameEngineProgramming-Night\\Assets\\Scripts\\CutScenePlayer.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\CutScenePlayer.cs",
+              "ToolTip": "C:\\Users\\Juhyun\\Desktop\\GameEngineProgramming-Night\\Assets\\Scripts\\CutScenePlayer.cs",
+              "RelativeToolTip": "Assets\\Scripts\\CutScenePlayer.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAADwvx4AAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-19T06:53:52.859Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "CoinUIManager.cs",
+              "DocumentMoniker": "C:\\Users\\Juhyun\\Desktop\\GameEngineProgramming-Night\\Assets\\Scripts\\CoinUIManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\CoinUIManager.cs",
+              "ToolTip": "C:\\Users\\Juhyun\\Desktop\\GameEngineProgramming-Night\\Assets\\Scripts\\CoinUIManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\CoinUIManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-19T06:52:24.763Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "DogSpawner.cs",
+              "DocumentMoniker": "C:\\Users\\Juhyun\\Desktop\\GameEngineProgramming-Night\\Assets\\Scripts\\DogSpawner.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\DogSpawner.cs",
+              "ToolTip": "C:\\Users\\Juhyun\\Desktop\\GameEngineProgramming-Night\\Assets\\Scripts\\DogSpawner.cs",
+              "RelativeToolTip": "Assets\\Scripts\\DogSpawner.cs",
+              "ViewState": "AgIAALgAAAAAAAAAAAAYwJYAAABJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-19T06:51:25.479Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DayNightTimer.cs",
+              "DocumentMoniker": "C:\\Users\\Juhyun\\Desktop\\GameEngineProgramming-Night\\Assets\\Scripts\\DayNightTimer.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\DayNightTimer.cs",
+              "ToolTip": "C:\\Users\\Juhyun\\Desktop\\GameEngineProgramming-Night\\Assets\\Scripts\\DayNightTimer.cs",
+              "RelativeToolTip": "Assets\\Scripts\\DayNightTimer.cs",
+              "ViewState": "AgIAADgAAAAAAAAAAAAkwFIAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-18T14:17:44.372Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ResourceManager.cs",
+              "DocumentMoniker": "C:\\Users\\Juhyun\\Desktop\\GameEngineProgramming-Night\\Assets\\Scripts\\ResourceManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\ResourceManager.cs",
+              "ToolTip": "C:\\Users\\Juhyun\\Desktop\\GameEngineProgramming-Night\\Assets\\Scripts\\ResourceManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\ResourceManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-18T14:21:40.51Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "LootResult.cs",
+              "DocumentMoniker": "C:\\Users\\Juhyun\\Desktop\\GameEngineProgramming-Night\\Assets\\Scripts\\LootResult.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\LootResult.cs",
+              "ToolTip": "C:\\Users\\Juhyun\\Desktop\\GameEngineProgramming-Night\\Assets\\Scripts\\LootResult.cs",
+              "RelativeToolTip": "Assets\\Scripts\\LootResult.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-18T14:23:37.249Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "RobotEvent.cs",
+              "DocumentMoniker": "C:\\Users\\Juhyun\\Desktop\\GameEngineProgramming-Night\\Assets\\Scripts\\RobotEvent.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\RobotEvent.cs",
+              "ToolTip": "C:\\Users\\Juhyun\\Desktop\\GameEngineProgramming-Night\\Assets\\Scripts\\RobotEvent.cs",
+              "RelativeToolTip": "Assets\\Scripts\\RobotEvent.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAYwBgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-18T14:21:28.596Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "LootChest.cs",
+              "DocumentMoniker": "C:\\Users\\Juhyun\\Desktop\\GameEngineProgramming-Night\\Assets\\Scripts\\LootChest.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\LootChest.cs",
+              "ToolTip": "C:\\Users\\Juhyun\\Desktop\\GameEngineProgramming-Night\\Assets\\Scripts\\LootChest.cs",
+              "RelativeToolTip": "Assets\\Scripts\\LootChest.cs",
+              "ViewState": "AgIAAE4AAAAAAAAAAAAYwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-18T14:23:49.82Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "BoxGameManager.cs",
+              "DocumentMoniker": "C:\\Users\\Juhyun\\Desktop\\GameEngineProgramming-Night\\Assets\\Scripts\\BoxGameManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\BoxGameManager.cs",
+              "ToolTip": "C:\\Users\\Juhyun\\Desktop\\GameEngineProgramming-Night\\Assets\\Scripts\\BoxGameManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\BoxGameManager.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAAowEAAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-18T14:24:19.229Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "TimingBar.cs",
+              "DocumentMoniker": "C:\\Users\\Juhyun\\Desktop\\GameEngineProgramming-Night\\Assets\\Scripts\\TimingBar.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\TimingBar.cs",
+              "ToolTip": "C:\\Users\\Juhyun\\Desktop\\GameEngineProgramming-Night\\Assets\\Scripts\\TimingBar.cs",
+              "RelativeToolTip": "Assets\\Scripts\\TimingBar.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-18T13:02:09.972Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "AvoidCCTV.cs",
+              "DocumentMoniker": "C:\\Users\\Juhyun\\Desktop\\GameEngineProgramming-Night\\Assets\\Scripts\\AvoidCCTV.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\AvoidCCTV.cs",
+              "ToolTip": "C:\\Users\\Juhyun\\Desktop\\GameEngineProgramming-Night\\Assets\\Scripts\\AvoidCCTV.cs",
+              "RelativeToolTip": "Assets\\Scripts\\AvoidCCTV.cs",
+              "ViewState": "AgIAAMIAAAAAAAAAAAAuwMoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-18T13:00:23.742Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
